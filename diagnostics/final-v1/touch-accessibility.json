@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "touch": [
+    "CONTENTS",
+    "direct floor",
+    "swipe does not change floor",
+    "sky return",
+    "ARCHIVES",
+    "detail",
+    "back"
+  ],
+  "reducedMotion": true,
+  "keyboardSkyReturn": true,
+  "titleHoverAndKeyboard": true
+}

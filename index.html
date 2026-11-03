@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="鰆ビルヂング — SAWARA BUILDING">
+  <title>鰆ビルヂング | SAWARA BUILDING</title>
+  <link rel="icon" href="data:,">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script defer src="assets/js/floors.js"></script>
+  <script defer src="assets/js/floor-navigation.js"></script>
+  <script type="importmap">{"imports":{"three":"./assets/vendor/three/build/three.module.js","three/addons/":"./assets/vendor/three/examples/jsm/"}}</script>
+  <script defer src="assets/js/directory.js"></script>
+  <script type="module" src="assets/js/building.js"></script>
+</head>
+<body class="home">
+  <a class="skip" href="#directory">フロア案内へ</a>
+  <main>
+    <section id="hero" class="hero" aria-label="鰆ビルヂングの建築模型">
+      <div id="sky" class="sky" role="button" tabindex="-1" aria-label="空。模型の外観に戻る"></div>
+      <div id="ground" class="ground" aria-hidden="true"></div>
+      <header class="site-header">
+        <h1 lang="en">SAWARA<br>BUILDING<span lang="ja">鰆ビルヂング</span></h1>
+      </header>
+      <div class="exterior-logo"><img src="assets/images/sawara-building-logo.png" alt="SAWARA BUILDING" draggable="false"></div>
+      <div id="stage" class="stage" aria-label="3D模型。ホイールで拡大縮小、右ドラッグまたはタッチで回転。クリックで案内モード。">
+        <img id="fallback" class="fallback" src="diagnostics/section-review/B1-candidate.png" alt="鰆ビルヂング、B1方向から見た中央吹抜の断面。">
+      </div>
+      <p id="load-status" class="load-status" role="status">模型を読み込んでいます…</p>
+      <div class="view-controls">
+        <button id="guide-button" type="button" aria-pressed="false">CONTENTS</button>
+      </div>
+    </section>
+    <section id="directory" class="directory" aria-labelledby="building-heading">
+      <h2 id="building-heading" class="visually-hidden">地上階の案内</h2>
+      <div id="tenant-list" class="tenant-list"></div>
+      <p id="selected-floor" class="selected-floor" role="status">1F カフェ</p>
+    </section>
+    <section id="archives" class="archives" aria-labelledby="archive-heading">
+      <div class="archive-heading"><h2 id="archive-heading"><a href="./archives/index.html">ARCHIVES</a></h2></div>
+    </section>
+  </main>
+  <noscript><nav class="no-script-navigation" aria-label="フロア案内"><a href="./archives/index.html">ARCHIVES</a></nav></noscript>
+</body>
+</html>

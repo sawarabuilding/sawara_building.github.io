@@ -1,0 +1,4 @@
+.local-backups/
+.local-cache/
+node_modules/
+*-run.log
