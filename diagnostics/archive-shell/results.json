@@ -1,0 +1,74 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "title": {
+        "rect": {
+          "x": 28.578125,
+          "y": 56.203125,
+          "width": 50.859375,
+          "height": 787.578125,
+          "top": 56.203125,
+          "right": 79.4375,
+          "bottom": 843.78125,
+          "left": 28.578125
+        },
+        "transform": "matrix(0, -1, 1, 0, 0, 0)"
+      },
+      "allNineDetails": true,
+      "categories": true,
+      "flash": true
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "title": {
+        "rect": {
+          "x": 30.15625,
+          "y": 52.765625,
+          "width": 47.6875,
+          "height": 738.46875,
+          "top": 52.765625,
+          "right": 77.84375,
+          "bottom": 791.234375,
+          "left": 30.15625
+        },
+        "transform": "matrix(0, -1, 1, 0, 0, 0)"
+      },
+      "allNineDetails": true,
+      "categories": true,
+      "flash": true
+    },
+    {
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "title": {
+        "rect": {
+          "x": 42.984375,
+          "y": 24.40625,
+          "width": 22.03125,
+          "height": 341.1875,
+          "top": 24.40625,
+          "right": 65.015625,
+          "bottom": 365.59375,
+          "left": 42.984375
+        },
+        "transform": "matrix(0, -1, 1, 0, 0, 0)"
+      },
+      "allNineDetails": true,
+      "categories": true,
+      "flash": true
+    }
+  ],
+  "touchNavigation": true,
+  "reducedMotion": true,
+  "errors": []
+}

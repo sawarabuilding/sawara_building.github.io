@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "width": 1366,
+      "height": 768,
+      "typographyUnchanged": true,
+      "rightAligned": true,
+      "gap": 22,
+      "guideUnchanged": true
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "typographyUnchanged": true,
+      "rightAligned": true,
+      "gap": 22,
+      "guideUnchanged": true
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "typographyUnchanged": true,
+      "rightAligned": true,
+      "gap": 22,
+      "guideUnchanged": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "typographyUnchanged": true,
+      "rightAligned": true,
+      "gap": 17,
+      "guideUnchanged": true
+    },
+    {
+      "width": 375,
+      "height": 667,
+      "typographyUnchanged": true,
+      "rightAligned": true,
+      "gap": 17,
+      "guideUnchanged": true
+    }
+  ],
+  "errors": []
+}

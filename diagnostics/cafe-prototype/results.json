@@ -1,0 +1,78 @@
+{
+  "passed": true,
+  "branch": "feature/1f-kitchen-flamingo",
+  "results": [
+    {
+      "width": 1440,
+      "height": 900,
+      "mobile": false,
+      "centered": true,
+      "backgroundMotion": true,
+      "fixedNavigation": true,
+      "splitPanels": true,
+      "logoStable": true,
+      "homeReturn": true,
+      "noReload": true,
+      "keyboard": true
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "mobile": false,
+      "centered": true,
+      "backgroundMotion": true,
+      "fixedNavigation": true,
+      "splitPanels": true,
+      "logoStable": true,
+      "homeReturn": true,
+      "noReload": true,
+      "keyboard": true
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "mobile": false,
+      "centered": true,
+      "backgroundMotion": true,
+      "fixedNavigation": true,
+      "splitPanels": true,
+      "logoStable": true,
+      "homeReturn": true,
+      "noReload": true,
+      "keyboard": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "mobile": true,
+      "centered": true,
+      "backgroundMotion": true,
+      "fixedNavigation": true,
+      "splitPanels": true,
+      "logoStable": true,
+      "homeReturn": true,
+      "noReload": true,
+      "keyboard": true
+    },
+    {
+      "width": 375,
+      "height": 667,
+      "mobile": true,
+      "centered": true,
+      "backgroundMotion": true,
+      "fixedNavigation": true,
+      "splitPanels": true,
+      "logoStable": true,
+      "homeReturn": true,
+      "noReload": true,
+      "keyboard": true
+    }
+  ],
+  "reducedMotion": true,
+  "imageFailureFallback": true,
+  "cafeLinkFrom3D": true,
+  "backupCommitUnchanged": true,
+  "oldUntrackedFilesPreserved": 186,
+  "jsErrors": [],
+  "localHttpErrors": []
+}

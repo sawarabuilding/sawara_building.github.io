@@ -82,10 +82,33 @@ body[data-mode=guide] .exterior-logo{display:none}
 .exterior-logo{top:43px;right:4vw;width:clamp(47.5px,6vw,87.5px)}
 .home:not([data-mode=guide]) .view-controls{right:auto}
 .home:not([data-mode=guide]) .view-controls #guide-button{font-size:21px;color:#fff}
-.home:not([data-mode=guide]) .site-header h1 span{font-family:"Yu Mincho","游明朝",YuMincho,"Noto Serif JP",serif;font-size:13.75px;color:#fff}
+.home:not([data-mode=guide]) .site-header h1 span{font-family:var(--building-japanese-font);font-size:13.75px;color:#fff}
 @media(max-width:700px){.exterior-logo{top:29px;right:5vw;width:50px}.home:not([data-mode=guide]) .view-controls #guide-button{font-size:19.5px}.home:not([data-mode=guide]) .site-header h1 span{font-size:12.5px}}
 @media(max-width:700px) and (max-height:740px){.home:not([data-mode=guide]) .site-header h1 span{font-size:11.25px}}
 
 /* Exterior: CONTENTS at the lower right. */
 .home:not([data-mode=guide]) .view-controls{left:auto;right:4vw;justify-content:flex-end}
 @media(max-width:700px){.home:not([data-mode=guide]) .view-controls{left:auto;right:6vw}}
+
+/* Section labels: same model projection, one name per floor. */
+.home{--building-japanese-font:"Yu Mincho","游明朝",YuMincho,"Noto Serif JP",serif}
+body.home[data-mode=guide] .site-header h1 span{font-family:var(--building-japanese-font)}
+body.home[data-mode=guide] .archive-heading a{transform:rotate(0deg)}
+body.home[data-mode=guide] .archives{width:max-content}
+.guide-logo{display:none}
+body[data-mode=guide] .guide-logo{display:block}
+body.home[data-mode=guide] .tenant-row{grid-template-rows:1fr}
+body.home[data-mode=guide] .floor-label{grid-row:auto;align-self:center}
+body.home[data-mode=guide] .floor-name{display:flex;align-items:center;font-family:Arial,Helvetica,"Noto Sans JP",sans-serif;font-size:11px;letter-spacing:.08em;white-space:nowrap;line-height:1.2}
+body.home[data-mode=guide] .floor-label[aria-pressed=true]+.floor-name{color:#744b27}
+@media(max-width:700px){body.home[data-mode=guide] .tenant-row{left:min(var(--floor-x,70%),calc(100vw - 126px));width:120px;grid-template-columns:25px 1fr;gap:4px}body.home[data-mode=guide] .floor-name{font-size:8px;letter-spacing:0}}
+
+/* Independent 1F destinations and enlarged tenant names. */
+body.home[data-mode=guide] .archives{left:auto;right:4vw;text-align:right}
+body.home[data-mode=guide] .tenant-row{width:min(280px,calc(100vw - var(--floor-x,70%) - 8px))}
+body.home[data-mode=guide] .floor-name{font-family:"Yu Gothic","游ゴシック",YuGothic,"Noto Sans JP",sans-serif;font-size:13.75px}
+.floor-tenants{gap:.65em}
+.tenant-link{text-decoration:none;white-space:nowrap}
+.tenant-link:hover,.tenant-link:focus-visible{text-decoration:underline;text-underline-offset:4px}
+.tenant-link[aria-disabled=true]{cursor:default}
+@media(max-width:700px){body.home[data-mode=guide] .tenant-row{left:min(var(--floor-x,70%),calc(100vw - 126px));width:120px}body.home[data-mode=guide] .floor-name{font-size:10px;letter-spacing:0}body.home[data-mode=guide] [data-floor-row="3f"] .floor-name{letter-spacing:-.14em;word-spacing:.2em}}

@@ -1,0 +1,38 @@
+{
+  "source_hashes_unchanged": true,
+  "model_reimport": "PASS",
+  "models": [
+    {
+      "file": "sawara-building-exterior-v2.glb",
+      "triangles": 433290,
+      "minimum": [
+        -7.500000953674316,
+        -9.333334922790527,
+        -1.0
+      ],
+      "maximum": [
+        7.499998092651367,
+        9.333332061767578,
+        17.079999923706055
+      ],
+      "sha256": "0af065c32919f16aecd94dd331cc948bc31e5082a837807ed9204e37d2bd9716"
+    },
+    {
+      "file": "sawara-building-section-b1.glb",
+      "triangles": 402362,
+      "minimum": [
+        -7.500000953674316,
+        -0.12166690826416016,
+        -1.0
+      ],
+      "maximum": [
+        7.499998092651367,
+        9.333332061767578,
+        17.079999923706055
+      ],
+      "sha256": "fefbc06cff19738334a98904f848804b83e07d27ca5a3fffa2f7dc93453dee35"
+    }
+  ],
+  "cap_faces": 130,
+  "unclosed_cut_edges": 26
+}

@@ -1,0 +1,34 @@
+{
+  "state": {
+    "camera": [
+      -40.11694928800692,
+      28.32028322863083,
+      41.1575225658407
+    ],
+    "aspect": 1.172093023255814,
+    "info": {
+      "frame": 16,
+      "calls": 13,
+      "triangles": 434922,
+      "points": 0,
+      "lines": 0
+    },
+    "meshes": 14,
+    "mode": "exterior"
+  },
+  "checks": [
+    "Auto rotation",
+    "Wheel zoom",
+    "Right drag and auto pause",
+    "Canvas click enters guide",
+    "Guide camera fixed",
+    "Floor selection",
+    "B1F destination",
+    "Touch rotation",
+    "Pinch zoom",
+    "Mobile guide and layout",
+    "WebGL fallback navigation",
+    "Reduced motion"
+  ],
+  "errors": []
+}

@@ -1,0 +1,1331 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "width": 1366,
+      "height": 768,
+      "initial": {
+        "rect": {
+          "x": 34.65625,
+          "y": 124.859375,
+          "width": 38.6875,
+          "height": 518.28125,
+          "top": 124.859375,
+          "right": 73.34375,
+          "bottom": 643.140625,
+          "left": 34.65625
+        },
+        "transform": "matrix(0, -1, 1, 0, 0, 0)",
+        "position": "fixed",
+        "color": "rgba(0, 0, 0, 0)",
+        "stroke": "1.2px",
+        "strokeColor": "rgb(255, 255, 255)",
+        "whiteSpace": "nowrap",
+        "writingMode": "horizontal-tb",
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      "scrolled": {
+        "rect": {
+          "x": 34.65625,
+          "y": 124.859375,
+          "width": 38.6875,
+          "height": 518.28125,
+          "top": 124.859375,
+          "right": 73.34375,
+          "bottom": 643.140625,
+          "left": 34.65625
+        },
+        "transform": "matrix(0, -1, 1, 0, 0, 0)",
+        "position": "fixed",
+        "color": "rgba(0, 0, 0, 0)",
+        "stroke": "1.2px",
+        "strokeColor": "rgb(255, 255, 255)",
+        "whiteSpace": "nowrap",
+        "writingMode": "horizontal-tb",
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      "fixedOnScroll": true,
+      "titleReturnsToTop": true,
+      "cards": [
+        {
+          "rect": {
+            "x": 124,
+            "y": 203,
+            "width": 316.734375,
+            "height": 477.921875,
+            "top": 203,
+            "right": 440.734375,
+            "bottom": 680.921875,
+            "left": 124
+          },
+          "title": "SAWARABAN 1号",
+          "href": "./sawaraban-1.html",
+          "offset": "15px"
+        },
+        {
+          "rect": {
+            "x": 535.546875,
+            "y": 203,
+            "width": 336.953125,
+            "height": 254.59375,
+            "top": 203,
+            "right": 872.5,
+            "bottom": 457.59375,
+            "left": 535.546875
+          },
+          "title": "building #1",
+          "href": "./building-1.html",
+          "offset": "145px"
+        },
+        {
+          "rect": {
+            "x": 947.09375,
+            "y": 203,
+            "width": 299.875,
+            "height": 188.21875,
+            "top": 203,
+            "right": 1246.96875,
+            "bottom": 391.21875,
+            "left": 947.09375
+          },
+          "title": "2026.7.19-20 ZINEフェス",
+          "href": "./zine-fes-2026.html",
+          "offset": "62px"
+        },
+        {
+          "rect": {
+            "x": 124,
+            "y": 785.921875,
+            "width": 303.25,
+            "height": 190.109375,
+            "top": 785.921875,
+            "right": 427.25,
+            "bottom": 976.03125,
+            "left": 124
+          },
+          "title": "収支報告書2026",
+          "href": "./money-2026.html",
+          "offset": "110px"
+        },
+        {
+          "rect": {
+            "x": 535.546875,
+            "y": 785.921875,
+            "width": 336.953125,
+            "height": 197.1875,
+            "top": 785.921875,
+            "right": 872.5,
+            "bottom": 983.109375,
+            "left": 535.546875
+          },
+          "title": "SAWARABAN 3号",
+          "href": "./sawaraban-3.html",
+          "offset": "12px"
+        },
+        {
+          "rect": {
+            "x": 947.09375,
+            "y": 785.921875,
+            "width": 313.359375,
+            "height": 258.015625,
+            "top": 785.921875,
+            "right": 1260.453125,
+            "bottom": 1043.9375,
+            "left": 947.09375
+          },
+          "title": "building #2",
+          "href": "./building-2.html",
+          "offset": "165px"
+        },
+        {
+          "rect": {
+            "x": 124,
+            "y": 1148.9375,
+            "width": 303.25,
+            "height": 182.03125,
+            "top": 1148.9375,
+            "right": 427.25,
+            "bottom": 1330.96875,
+            "left": 124
+          },
+          "title": "2026.9.26 西神中央",
+          "href": "./seishin-2026.html",
+          "offset": "30px"
+        },
+        {
+          "rect": {
+            "x": 535.546875,
+            "y": 1148.9375,
+            "width": 336.953125,
+            "height": 239.59375,
+            "top": 1148.9375,
+            "right": 872.5,
+            "bottom": 1388.53125,
+            "left": 535.546875
+          },
+          "title": "building #3",
+          "href": "./building-3.html",
+          "offset": "130px"
+        },
+        {
+          "rect": {
+            "x": 947.09375,
+            "y": 1148.9375,
+            "width": 299.875,
+            "height": 152.03125,
+            "top": 1148.9375,
+            "right": 1246.96875,
+            "bottom": 1300.96875,
+            "left": 947.09375
+          },
+          "title": "SAWARABAN 2号",
+          "href": "./sawaraban-2.html",
+          "offset": "0px"
+        }
+      ],
+      "logo": {
+        "x": 1241.375,
+        "y": 43,
+        "width": 70,
+        "height": 70
+      }
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "initial": {
+        "rect": {
+          "x": 31.328125,
+          "y": 146.28125,
+          "width": 45.359375,
+          "height": 607.421875,
+          "top": 146.28125,
+          "right": 76.6875,
+          "bottom": 753.703125,
+          "left": 31.328125
+        },
+        "transform": "matrix(0, -1, 1, 0, 0, 0)",
+        "position": "fixed",
+        "color": "rgba(0, 0, 0, 0)",
+        "stroke": "1.2px",
+        "strokeColor": "rgb(255, 255, 255)",
+        "whiteSpace": "nowrap",
+        "writingMode": "horizontal-tb",
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      "scrolled": {
+        "rect": {
+          "x": 31.328125,
+          "y": 146.28125,
+          "width": 45.359375,
+          "height": 607.421875,
+          "top": 146.28125,
+          "right": 76.6875,
+          "bottom": 753.703125,
+          "left": 31.328125
+        },
+        "transform": "matrix(0, -1, 1, 0, 0, 0)",
+        "position": "fixed",
+        "color": "rgba(0, 0, 0, 0)",
+        "stroke": "1.2px",
+        "strokeColor": "rgb(255, 255, 255)",
+        "whiteSpace": "nowrap",
+        "writingMode": "horizontal-tb",
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      "fixedOnScroll": true,
+      "titleReturnsToTop": true,
+      "cards": [
+        {
+          "rect": {
+            "x": 124,
+            "y": 203,
+            "width": 333.890625,
+            "height": 499.78125,
+            "top": 203,
+            "right": 457.890625,
+            "bottom": 702.78125,
+            "left": 124
+          },
+          "title": "SAWARABAN 1号",
+          "href": "./sawaraban-1.html",
+          "offset": "15px"
+        },
+        {
+          "rect": {
+            "x": 561.203125,
+            "y": 203,
+            "width": 355.203125,
+            "height": 258.703125,
+            "top": 203,
+            "right": 916.40625,
+            "bottom": 461.703125,
+            "left": 561.203125
+          },
+          "title": "building #1",
+          "href": "./building-1.html",
+          "offset": "145px"
+        },
+        {
+          "rect": {
+            "x": 998.40625,
+            "y": 203,
+            "width": 316.125,
+            "height": 193.1875,
+            "top": 203,
+            "right": 1314.53125,
+            "bottom": 396.1875,
+            "left": 998.40625
+          },
+          "title": "2026.7.19-20 ZINEフェス",
+          "href": "./zine-fes-2026.html",
+          "offset": "62px"
+        },
+        {
+          "rect": {
+            "x": 124,
+            "y": 807.78125,
+            "width": 319.671875,
+            "height": 192.59375,
+            "top": 807.78125,
+            "right": 443.671875,
+            "bottom": 1000.375,
+            "left": 124
+          },
+          "title": "収支報告書2026",
+          "href": "./money-2026.html",
+          "offset": "110px"
+        },
+        {
+          "rect": {
+            "x": 561.203125,
+            "y": 807.78125,
+            "width": 355.203125,
+            "height": 205.40625,
+            "top": 807.78125,
+            "right": 916.40625,
+            "bottom": 1013.1875,
+            "left": 561.203125
+          },
+          "title": "SAWARABAN 3号",
+          "href": "./sawaraban-3.html",
+          "offset": "12px"
+        },
+        {
+          "rect": {
+            "x": 998.40625,
+            "y": 807.78125,
+            "width": 330.328125,
+            "height": 261.203125,
+            "top": 807.78125,
+            "right": 1328.734375,
+            "bottom": 1068.984375,
+            "left": 998.40625
+          },
+          "title": "building #2",
+          "href": "./building-2.html",
+          "offset": "165px"
+        },
+        {
+          "rect": {
+            "x": 124,
+            "y": 1173.984375,
+            "width": 319.671875,
+            "height": 188.40625,
+            "top": 1173.984375,
+            "right": 443.671875,
+            "bottom": 1362.390625,
+            "left": 124
+          },
+          "title": "2026.9.26 西神中央",
+          "href": "./seishin-2026.html",
+          "offset": "30px"
+        },
+        {
+          "rect": {
+            "x": 561.203125,
+            "y": 1173.984375,
+            "width": 355.203125,
+            "height": 243.703125,
+            "top": 1173.984375,
+            "right": 916.40625,
+            "bottom": 1417.6875,
+            "left": 561.203125
+          },
+          "title": "building #3",
+          "href": "./building-3.html",
+          "offset": "130px"
+        },
+        {
+          "rect": {
+            "x": 998.40625,
+            "y": 1173.984375,
+            "width": 316.125,
+            "height": 158.40625,
+            "top": 1173.984375,
+            "right": 1314.53125,
+            "bottom": 1332.390625,
+            "left": 998.40625
+          },
+          "title": "SAWARABAN 2号",
+          "href": "./sawaraban-2.html",
+          "offset": "0px"
+        }
+      ],
+      "logo": {
+        "x": 1312.40625,
+        "y": 43,
+        "width": 70,
+        "height": 70
+      }
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "initial": {
+        "rect": {
+          "x": 29.859375,
+          "y": 216.59375,
+          "width": 48.296875,
+          "height": 646.796875,
+          "top": 216.59375,
+          "right": 78.15625,
+          "bottom": 863.390625,
+          "left": 29.859375
+        },
+        "transform": "matrix(0, -1, 1, 0, 0, 0)",
+        "position": "fixed",
+        "color": "rgba(0, 0, 0, 0)",
+        "stroke": "1.2px",
+        "strokeColor": "rgb(255, 255, 255)",
+        "whiteSpace": "nowrap",
+        "writingMode": "horizontal-tb",
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      "scrolled": {
+        "rect": {
+          "x": 29.859375,
+          "y": 216.59375,
+          "width": 48.296875,
+          "height": 646.796875,
+          "top": 216.59375,
+          "right": 78.15625,
+          "bottom": 863.390625,
+          "left": 29.859375
+        },
+        "transform": "matrix(0, -1, 1, 0, 0, 0)",
+        "position": "fixed",
+        "color": "rgba(0, 0, 0, 0)",
+        "stroke": "1.2px",
+        "strokeColor": "rgb(255, 255, 255)",
+        "whiteSpace": "nowrap",
+        "writingMode": "horizontal-tb",
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      "fixedOnScroll": true,
+      "titleReturnsToTop": true,
+      "cards": [
+        {
+          "rect": {
+            "x": 124,
+            "y": 203,
+            "width": 445.171875,
+            "height": 635.734375,
+            "top": 203,
+            "right": 569.171875,
+            "bottom": 838.734375,
+            "left": 124
+          },
+          "title": "SAWARABAN 1号",
+          "href": "./sawaraban-1.html",
+          "offset": "15px"
+        },
+        {
+          "rect": {
+            "x": 727.59375,
+            "y": 203,
+            "width": 473.609375,
+            "height": 277.546875,
+            "top": 203,
+            "right": 1201.203125,
+            "bottom": 480.546875,
+            "left": 727.59375
+          },
+          "title": "building #1",
+          "href": "./building-1.html",
+          "offset": "145px"
+        },
+        {
+          "rect": {
+            "x": 1331.203125,
+            "y": 203,
+            "width": 421.484375,
+            "height": 214.78125,
+            "top": 203,
+            "right": 1752.6875,
+            "bottom": 417.78125,
+            "left": 1331.203125
+          },
+          "title": "2026.7.19-20 ZINEフェス",
+          "href": "./zine-fes-2026.html",
+          "offset": "62px"
+        },
+        {
+          "rect": {
+            "x": 124,
+            "y": 943.734375,
+            "width": 426.234375,
+            "height": 203.390625,
+            "top": 943.734375,
+            "right": 550.234375,
+            "bottom": 1147.125,
+            "left": 124
+          },
+          "title": "収支報告書2026",
+          "href": "./money-2026.html",
+          "offset": "110px"
+        },
+        {
+          "rect": {
+            "x": 727.59375,
+            "y": 943.734375,
+            "width": 473.609375,
+            "height": 243.09375,
+            "top": 943.734375,
+            "right": 1201.203125,
+            "bottom": 1186.828125,
+            "left": 727.59375
+          },
+          "title": "SAWARABAN 3号",
+          "href": "./sawaraban-3.html",
+          "offset": "12px"
+        },
+        {
+          "rect": {
+            "x": 1331.203125,
+            "y": 943.734375,
+            "width": 440.4375,
+            "height": 275.9375,
+            "top": 943.734375,
+            "right": 1771.640625,
+            "bottom": 1219.671875,
+            "left": 1331.203125
+          },
+          "title": "building #2",
+          "href": "./building-2.html",
+          "offset": "165px"
+        },
+        {
+          "rect": {
+            "x": 124,
+            "y": 1324.671875,
+            "width": 426.234375,
+            "height": 217.875,
+            "top": 1324.671875,
+            "right": 550.234375,
+            "bottom": 1542.546875,
+            "left": 124
+          },
+          "title": "2026.9.26 西神中央",
+          "href": "./seishin-2026.html",
+          "offset": "30px"
+        },
+        {
+          "rect": {
+            "x": 727.59375,
+            "y": 1324.671875,
+            "width": 473.609375,
+            "height": 262.546875,
+            "top": 1324.671875,
+            "right": 1201.203125,
+            "bottom": 1587.21875,
+            "left": 727.59375
+          },
+          "title": "building #3",
+          "href": "./building-3.html",
+          "offset": "130px"
+        },
+        {
+          "rect": {
+            "x": 1331.203125,
+            "y": 1324.671875,
+            "width": 421.484375,
+            "height": 187.875,
+            "top": 1324.671875,
+            "right": 1752.6875,
+            "bottom": 1512.546875,
+            "left": 1331.203125
+          },
+          "title": "SAWARABAN 2号",
+          "href": "./sawaraban-2.html",
+          "offset": "0px"
+        }
+      ],
+      "logo": {
+        "x": 1773.203125,
+        "y": 43,
+        "width": 70,
+        "height": 70
+      }
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "initial": {
+        "rect": {
+          "x": 29.859375,
+          "y": 266.59375,
+          "width": 48.296875,
+          "height": 646.796875,
+          "top": 266.59375,
+          "right": 78.15625,
+          "bottom": 913.390625,
+          "left": 29.859375
+        },
+        "transform": "matrix(0, -1, 1, 0, 0, 0)",
+        "position": "fixed",
+        "color": "rgba(0, 0, 0, 0)",
+        "stroke": "1.2px",
+        "strokeColor": "rgb(255, 255, 255)",
+        "whiteSpace": "nowrap",
+        "writingMode": "horizontal-tb",
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      "scrolled": {
+        "rect": {
+          "x": 29.859375,
+          "y": 266.59375,
+          "width": 48.296875,
+          "height": 646.796875,
+          "top": 266.59375,
+          "right": 78.15625,
+          "bottom": 913.390625,
+          "left": 29.859375
+        },
+        "transform": "matrix(0, -1, 1, 0, 0, 0)",
+        "position": "fixed",
+        "color": "rgba(0, 0, 0, 0)",
+        "stroke": "1.2px",
+        "strokeColor": "rgb(255, 255, 255)",
+        "whiteSpace": "nowrap",
+        "writingMode": "horizontal-tb",
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      "fixedOnScroll": true,
+      "titleReturnsToTop": true,
+      "cards": [
+        {
+          "rect": {
+            "x": 124,
+            "y": 203,
+            "width": 277.015625,
+            "height": 329.625,
+            "top": 203,
+            "right": 401.015625,
+            "bottom": 532.625,
+            "left": 124
+          },
+          "title": "SAWARABAN 1号",
+          "href": "./sawaraban-1.html",
+          "offset": "15px"
+        },
+        {
+          "rect": {
+            "x": 476.09375,
+            "y": 203,
+            "width": 294.71875,
+            "height": 242.4375,
+            "top": 203,
+            "right": 770.8125,
+            "bottom": 445.4375,
+            "left": 476.09375
+          },
+          "title": "building #1",
+          "href": "./building-1.html",
+          "offset": "145px"
+        },
+        {
+          "rect": {
+            "x": 124,
+            "y": 612.625,
+            "width": 262.28125,
+            "height": 171.59375,
+            "top": 612.625,
+            "right": 386.28125,
+            "bottom": 784.21875,
+            "left": 124
+          },
+          "title": "2026.7.19-20 ZINEフェス",
+          "href": "./zine-fes-2026.html",
+          "offset": "62px"
+        },
+        {
+          "rect": {
+            "x": 476.09375,
+            "y": 612.625,
+            "width": 265.234375,
+            "height": 181.796875,
+            "top": 612.625,
+            "right": 741.328125,
+            "bottom": 794.421875,
+            "left": 476.09375
+          },
+          "title": "収支報告書2026",
+          "href": "./money-2026.html",
+          "offset": "110px"
+        },
+        {
+          "rect": {
+            "x": 124,
+            "y": 874.421875,
+            "width": 294.703125,
+            "height": 172.875,
+            "top": 874.421875,
+            "right": 418.703125,
+            "bottom": 1047.296875,
+            "left": 124
+          },
+          "title": "SAWARABAN 3号",
+          "href": "./sawaraban-3.html",
+          "offset": "12px"
+        },
+        {
+          "rect": {
+            "x": 476.09375,
+            "y": 874.421875,
+            "width": 274.078125,
+            "height": 247.59375,
+            "top": 874.421875,
+            "right": 750.171875,
+            "bottom": 1122.015625,
+            "left": 476.09375
+          },
+          "title": "building #2",
+          "href": "./building-2.html",
+          "offset": "165px"
+        },
+        {
+          "rect": {
+            "x": 124,
+            "y": 1202.015625,
+            "width": 265.21875,
+            "height": 161.1875,
+            "top": 1202.015625,
+            "right": 389.21875,
+            "bottom": 1363.203125,
+            "left": 124
+          },
+          "title": "2026.9.26 西神中央",
+          "href": "./seishin-2026.html",
+          "offset": "30px"
+        },
+        {
+          "rect": {
+            "x": 476.09375,
+            "y": 1202.015625,
+            "width": 294.71875,
+            "height": 227.4375,
+            "top": 1202.015625,
+            "right": 770.8125,
+            "bottom": 1429.453125,
+            "left": 476.09375
+          },
+          "title": "building #3",
+          "href": "./building-3.html",
+          "offset": "130px"
+        },
+        {
+          "rect": {
+            "x": 124,
+            "y": 1509.453125,
+            "width": 262.28125,
+            "height": 82.59375,
+            "top": 1509.453125,
+            "right": 386.28125,
+            "bottom": 1592.046875,
+            "left": 124
+          },
+          "title": "SAWARABAN 2号",
+          "href": "./sawaraban-2.html",
+          "offset": "0px"
+        }
+      ],
+      "logo": {
+        "x": 717.203125,
+        "y": 43,
+        "width": 70,
+        "height": 70
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "initial": {
+        "rect": {
+          "x": 32.734375,
+          "y": 137.203125,
+          "width": 42.53125,
+          "height": 569.59375,
+          "top": 137.203125,
+          "right": 75.265625,
+          "bottom": 706.796875,
+          "left": 32.734375
+        },
+        "transform": "matrix(0, -1, 1, 0, 0, 0)",
+        "position": "fixed",
+        "color": "rgba(0, 0, 0, 0)",
+        "stroke": "1.2px",
+        "strokeColor": "rgb(255, 255, 255)",
+        "whiteSpace": "nowrap",
+        "writingMode": "horizontal-tb",
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      "scrolled": {
+        "rect": {
+          "x": 32.734375,
+          "y": 137.203125,
+          "width": 42.53125,
+          "height": 569.59375,
+          "top": 137.203125,
+          "right": 75.265625,
+          "bottom": 706.796875,
+          "left": 32.734375
+        },
+        "transform": "matrix(0, -1, 1, 0, 0, 0)",
+        "position": "fixed",
+        "color": "rgba(0, 0, 0, 0)",
+        "stroke": "1.2px",
+        "strokeColor": "rgb(255, 255, 255)",
+        "whiteSpace": "nowrap",
+        "writingMode": "horizontal-tb",
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      "fixedOnScroll": true,
+      "titleReturnsToTop": true,
+      "cards": [
+        {
+          "rect": {
+            "x": 108,
+            "y": 169,
+            "width": 232.078125,
+            "height": 484.890625,
+            "top": 169,
+            "right": 340.078125,
+            "bottom": 653.890625,
+            "left": 108
+          },
+          "title": "SAWARABAN 1号",
+          "href": "./sawaraban-1.html",
+          "offset": "15px"
+        },
+        {
+          "rect": {
+            "x": 108,
+            "y": 733.890625,
+            "width": 246.90625,
+            "height": 129.046875,
+            "top": 733.890625,
+            "right": 354.90625,
+            "bottom": 862.9375,
+            "left": 108
+          },
+          "title": "building #1",
+          "href": "./building-1.html",
+          "offset": "145px"
+        },
+        {
+          "rect": {
+            "x": 108,
+            "y": 942.9375,
+            "width": 219.734375,
+            "height": 121.78125,
+            "top": 942.9375,
+            "right": 327.734375,
+            "bottom": 1064.71875,
+            "left": 108
+          },
+          "title": "2026.7.19-20 ZINEフェス",
+          "href": "./zine-fes-2026.html",
+          "offset": "62px"
+        },
+        {
+          "rect": {
+            "x": 108,
+            "y": 1144.71875,
+            "width": 222.203125,
+            "height": 94.640625,
+            "top": 1144.71875,
+            "right": 330.203125,
+            "bottom": 1239.359375,
+            "left": 108
+          },
+          "title": "収支報告書2026",
+          "href": "./money-2026.html",
+          "offset": "110px"
+        },
+        {
+          "rect": {
+            "x": 108,
+            "y": 1319.359375,
+            "width": 246.90625,
+            "height": 160.59375,
+            "top": 1319.359375,
+            "right": 354.90625,
+            "bottom": 1479.953125,
+            "left": 108
+          },
+          "title": "SAWARABAN 3号",
+          "href": "./sawaraban-3.html",
+          "offset": "12px"
+        },
+        {
+          "rect": {
+            "x": 108,
+            "y": 1559.953125,
+            "width": 229.609375,
+            "height": 120.546875,
+            "top": 1559.953125,
+            "right": 337.609375,
+            "bottom": 1680.5,
+            "left": 108
+          },
+          "title": "building #2",
+          "href": "./building-2.html",
+          "offset": "165px"
+        },
+        {
+          "rect": {
+            "x": 108,
+            "y": 1760.5,
+            "width": 222.203125,
+            "height": 138.09375,
+            "top": 1760.5,
+            "right": 330.203125,
+            "bottom": 1898.59375,
+            "left": 108
+          },
+          "title": "2026.9.26 西神中央",
+          "href": "./seishin-2026.html",
+          "offset": "30px"
+        },
+        {
+          "rect": {
+            "x": 108,
+            "y": 1978.59375,
+            "width": 246.90625,
+            "height": 125.296875,
+            "top": 1978.59375,
+            "right": 354.90625,
+            "bottom": 2103.890625,
+            "left": 108
+          },
+          "title": "building #3",
+          "href": "./building-3.html",
+          "offset": "130px"
+        },
+        {
+          "rect": {
+            "x": 108,
+            "y": 2183.890625,
+            "width": 219.734375,
+            "height": 130.59375,
+            "top": 2183.890625,
+            "right": 327.734375,
+            "bottom": 2314.484375,
+            "left": 108
+          },
+          "title": "SAWARABAN 2号",
+          "href": "./sawaraban-2.html",
+          "offset": "0px"
+        }
+      ],
+      "logo": {
+        "x": 326.5,
+        "y": 29,
+        "width": 44,
+        "height": 56
+      }
+    },
+    {
+      "width": 375,
+      "height": 667,
+      "initial": {
+        "rect": {
+          "x": 37.203125,
+          "y": 108.453125,
+          "width": 33.609375,
+          "height": 450.078125,
+          "top": 108.453125,
+          "right": 70.8125,
+          "bottom": 558.53125,
+          "left": 37.203125
+        },
+        "transform": "matrix(0, -1, 1, 0, 0, 0)",
+        "position": "fixed",
+        "color": "rgba(0, 0, 0, 0)",
+        "stroke": "1.2px",
+        "strokeColor": "rgb(255, 255, 255)",
+        "whiteSpace": "nowrap",
+        "writingMode": "horizontal-tb",
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      "scrolled": {
+        "rect": {
+          "x": 37.203125,
+          "y": 108.453125,
+          "width": 33.609375,
+          "height": 450.078125,
+          "top": 108.453125,
+          "right": 70.8125,
+          "bottom": 558.53125,
+          "left": 37.203125
+        },
+        "transform": "matrix(0, -1, 1, 0, 0, 0)",
+        "position": "fixed",
+        "color": "rgba(0, 0, 0, 0)",
+        "stroke": "1.2px",
+        "strokeColor": "rgb(255, 255, 255)",
+        "whiteSpace": "nowrap",
+        "writingMode": "horizontal-tb",
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      "fixedOnScroll": true,
+      "titleReturnsToTop": true,
+      "cards": [
+        {
+          "rect": {
+            "x": 108,
+            "y": 169,
+            "width": 219.25,
+            "height": 466.90625,
+            "top": 169,
+            "right": 327.25,
+            "bottom": 635.90625,
+            "left": 108
+          },
+          "title": "SAWARABAN 1号",
+          "href": "./sawaraban-1.html",
+          "offset": "15px"
+        },
+        {
+          "rect": {
+            "x": 108,
+            "y": 715.90625,
+            "width": 233.25,
+            "height": 129.046875,
+            "top": 715.90625,
+            "right": 341.25,
+            "bottom": 844.953125,
+            "left": 108
+          },
+          "title": "building #1",
+          "href": "./building-1.html",
+          "offset": "145px"
+        },
+        {
+          "rect": {
+            "x": 108,
+            "y": 924.953125,
+            "width": 207.578125,
+            "height": 121.78125,
+            "top": 924.953125,
+            "right": 315.578125,
+            "bottom": 1046.734375,
+            "left": 108
+          },
+          "title": "2026.7.19-20 ZINEフェス",
+          "href": "./zine-fes-2026.html",
+          "offset": "62px"
+        },
+        {
+          "rect": {
+            "x": 108,
+            "y": 1126.734375,
+            "width": 209.921875,
+            "height": 94.640625,
+            "top": 1126.734375,
+            "right": 317.921875,
+            "bottom": 1221.375,
+            "left": 108
+          },
+          "title": "収支報告書2026",
+          "href": "./money-2026.html",
+          "offset": "110px"
+        },
+        {
+          "rect": {
+            "x": 108,
+            "y": 1301.375,
+            "width": 233.25,
+            "height": 160.59375,
+            "top": 1301.375,
+            "right": 341.25,
+            "bottom": 1461.96875,
+            "left": 108
+          },
+          "title": "SAWARABAN 3号",
+          "href": "./sawaraban-3.html",
+          "offset": "12px"
+        },
+        {
+          "rect": {
+            "x": 108,
+            "y": 1541.96875,
+            "width": 216.921875,
+            "height": 120.546875,
+            "top": 1541.96875,
+            "right": 324.921875,
+            "bottom": 1662.515625,
+            "left": 108
+          },
+          "title": "building #2",
+          "href": "./building-2.html",
+          "offset": "165px"
+        },
+        {
+          "rect": {
+            "x": 108,
+            "y": 1742.515625,
+            "width": 209.921875,
+            "height": 138.09375,
+            "top": 1742.515625,
+            "right": 317.921875,
+            "bottom": 1880.609375,
+            "left": 108
+          },
+          "title": "2026.9.26 西神中央",
+          "href": "./seishin-2026.html",
+          "offset": "30px"
+        },
+        {
+          "rect": {
+            "x": 108,
+            "y": 1960.609375,
+            "width": 233.25,
+            "height": 125.296875,
+            "top": 1960.609375,
+            "right": 341.25,
+            "bottom": 2085.90625,
+            "left": 108
+          },
+          "title": "building #3",
+          "href": "./building-3.html",
+          "offset": "130px"
+        },
+        {
+          "rect": {
+            "x": 108,
+            "y": 2165.90625,
+            "width": 207.578125,
+            "height": 130.59375,
+            "top": 2165.90625,
+            "right": 315.578125,
+            "bottom": 2296.5,
+            "left": 108
+          },
+          "title": "SAWARABAN 2号",
+          "href": "./sawaraban-2.html",
+          "offset": "0px"
+        }
+      ],
+      "logo": {
+        "x": 312.25,
+        "y": 29,
+        "width": 44,
+        "height": 56
+      }
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "initial": {
+        "rect": {
+          "x": 44.1875,
+          "y": 63.453125,
+          "width": 19.640625,
+          "height": 263.078125,
+          "top": 63.453125,
+          "right": 63.828125,
+          "bottom": 326.53125,
+          "left": 44.1875
+        },
+        "transform": "matrix(0, -1, 1, 0, 0, 0)",
+        "position": "fixed",
+        "color": "rgba(0, 0, 0, 0)",
+        "stroke": "1.2px",
+        "strokeColor": "rgb(255, 255, 255)",
+        "whiteSpace": "nowrap",
+        "writingMode": "horizontal-tb",
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      "scrolled": {
+        "rect": {
+          "x": 44.1875,
+          "y": 63.453125,
+          "width": 19.640625,
+          "height": 263.078125,
+          "top": 63.453125,
+          "right": 63.828125,
+          "bottom": 326.53125,
+          "left": 44.1875
+        },
+        "transform": "matrix(0, -1, 1, 0, 0, 0)",
+        "position": "fixed",
+        "color": "rgba(0, 0, 0, 0)",
+        "stroke": "1.2px",
+        "strokeColor": "rgb(255, 255, 255)",
+        "whiteSpace": "nowrap",
+        "writingMode": "horizontal-tb",
+        "font": "Arial, Helvetica, sans-serif"
+      },
+      "fixedOnScroll": true,
+      "titleReturnsToTop": true,
+      "cards": [
+        {
+          "rect": {
+            "x": 124,
+            "y": 203,
+            "width": 286.828125,
+            "height": 335.6875,
+            "top": 203,
+            "right": 410.828125,
+            "bottom": 538.6875,
+            "left": 124
+          },
+          "title": "SAWARABAN 1号",
+          "href": "./sawaraban-1.html",
+          "offset": "15px"
+        },
+        {
+          "rect": {
+            "x": 488.21875,
+            "y": 203,
+            "width": 305.15625,
+            "height": 242.4375,
+            "top": 203,
+            "right": 793.375,
+            "bottom": 445.4375,
+            "left": 488.21875
+          },
+          "title": "building #1",
+          "href": "./building-1.html",
+          "offset": "145px"
+        },
+        {
+          "rect": {
+            "x": 124,
+            "y": 618.6875,
+            "width": 271.5625,
+            "height": 171.59375,
+            "top": 618.6875,
+            "right": 395.5625,
+            "bottom": 790.28125,
+            "left": 124
+          },
+          "title": "2026.7.19-20 ZINEフェス",
+          "href": "./zine-fes-2026.html",
+          "offset": "62px"
+        },
+        {
+          "rect": {
+            "x": 488.21875,
+            "y": 618.6875,
+            "width": 274.640625,
+            "height": 181.796875,
+            "top": 618.6875,
+            "right": 762.859375,
+            "bottom": 800.484375,
+            "left": 488.21875
+          },
+          "title": "収支報告書2026",
+          "href": "./money-2026.html",
+          "offset": "110px"
+        },
+        {
+          "rect": {
+            "x": 124,
+            "y": 880.484375,
+            "width": 305.140625,
+            "height": 172.875,
+            "top": 880.484375,
+            "right": 429.140625,
+            "bottom": 1053.359375,
+            "left": 124
+          },
+          "title": "SAWARABAN 3号",
+          "href": "./sawaraban-3.html",
+          "offset": "12px"
+        },
+        {
+          "rect": {
+            "x": 488.21875,
+            "y": 880.484375,
+            "width": 283.78125,
+            "height": 247.59375,
+            "top": 880.484375,
+            "right": 772,
+            "bottom": 1128.078125,
+            "left": 488.21875
+          },
+          "title": "building #2",
+          "href": "./building-2.html",
+          "offset": "165px"
+        },
+        {
+          "rect": {
+            "x": 124,
+            "y": 1208.078125,
+            "width": 274.625,
+            "height": 161.1875,
+            "top": 1208.078125,
+            "right": 398.625,
+            "bottom": 1369.265625,
+            "left": 124
+          },
+          "title": "2026.9.26 西神中央",
+          "href": "./seishin-2026.html",
+          "offset": "30px"
+        },
+        {
+          "rect": {
+            "x": 488.21875,
+            "y": 1208.078125,
+            "width": 305.15625,
+            "height": 227.4375,
+            "top": 1208.078125,
+            "right": 793.375,
+            "bottom": 1435.515625,
+            "left": 488.21875
+          },
+          "title": "building #3",
+          "href": "./building-3.html",
+          "offset": "130px"
+        },
+        {
+          "rect": {
+            "x": 124,
+            "y": 1515.515625,
+            "width": 271.5625,
+            "height": 82.59375,
+            "top": 1515.515625,
+            "right": 395.5625,
+            "bottom": 1598.109375,
+            "left": 124
+          },
+          "title": "SAWARABAN 2号",
+          "href": "./sawaraban-2.html",
+          "offset": "0px"
+        }
+      ],
+      "logo": {
+        "x": 740.25,
+        "y": 43,
+        "width": 70,
+        "height": 70
+      }
+    }
+  ],
+  "withoutJavaScript": true,
+  "contentAndCoverUnchanged": true,
+  "errors": []
+}

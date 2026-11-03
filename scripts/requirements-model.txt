@@ -1,0 +1,2 @@
+# Optional, for read-only .3dm source-layer auditing; not required by the website.
+rhino3dm==8.35.0

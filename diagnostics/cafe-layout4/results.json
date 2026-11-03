@@ -1,0 +1,96 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "width": 1920,
+      "height": 1080,
+      "fontRatio": 1.0999999999999999,
+      "heightRatio": 0.8500085807448087,
+      "menuHeightDelta": 0,
+      "title": {
+        "font": "Arial, sans-serif",
+        "size": 18.7,
+        "weight": "700",
+        "color": "rgb(0, 0, 0)",
+        "line": "1px",
+        "lineColor": "rgb(0, 0, 0)"
+      }
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "fontRatio": 1.1,
+      "heightRatio": 0.8499362593334547,
+      "menuHeightDelta": 0,
+      "title": {
+        "font": "Arial, sans-serif",
+        "size": 18.216,
+        "weight": "700",
+        "color": "rgb(0, 0, 0)",
+        "line": "1px",
+        "lineColor": "rgb(0, 0, 0)"
+      }
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "fontRatio": 1.1,
+      "heightRatio": 0.8498463901689708,
+      "menuHeightDelta": 0,
+      "title": {
+        "font": "Arial, sans-serif",
+        "size": 17.2799,
+        "weight": "700",
+        "color": "rgb(0, 0, 0)",
+        "line": "1px",
+        "lineColor": "rgb(0, 0, 0)"
+      }
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "fontRatio": 1.0999999999999999,
+      "heightRatio": 0.8499333036905291,
+      "menuHeightDelta": 0,
+      "title": {
+        "font": "Arial, sans-serif",
+        "size": 13.2,
+        "weight": "700",
+        "color": "rgb(0, 0, 0)",
+        "line": "1px",
+        "lineColor": "rgb(0, 0, 0)"
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "fontRatio": 1.0999999999999999,
+      "heightRatio": 0.8499333036905291,
+      "menuHeightDelta": 0,
+      "title": {
+        "font": "Arial, sans-serif",
+        "size": 13.2,
+        "weight": "700",
+        "color": "rgb(0, 0, 0)",
+        "line": "1px",
+        "lineColor": "rgb(0, 0, 0)"
+      }
+    },
+    {
+      "width": 375,
+      "height": 667,
+      "fontRatio": 1.0999999999999999,
+      "heightRatio": 0.8499333036905291,
+      "menuHeightDelta": 0,
+      "title": {
+        "font": "Arial, sans-serif",
+        "size": 13.2,
+        "weight": "700",
+        "color": "rgb(0, 0, 0)",
+        "line": "1px",
+        "lineColor": "rgb(0, 0, 0)"
+      }
+    }
+  ],
+  "errors": []
+}

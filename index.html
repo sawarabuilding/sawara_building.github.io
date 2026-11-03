@@ -11,6 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/building-logo.css">
   <script defer src="assets/js/floors.js"></script>
   <script defer src="assets/js/floor-navigation.js"></script>
   <script type="importmap">{"imports":{"three":"./assets/vendor/three/build/three.module.js","three/addons/":"./assets/vendor/three/examples/jsm/"}}</script>
@@ -27,6 +28,7 @@
         <h1 lang="en">SAWARA<br>BUILDING<span lang="ja">鰆ビルヂング</span></h1>
       </header>
       <div class="exterior-logo"><img src="assets/images/sawara-building-logo.png" alt="SAWARA BUILDING" draggable="false"></div>
+      <a class="building-logo guide-logo" href="./index.html" aria-label="鰆ビルヂングの外観トップページへ戻る"><img src="assets/images/sawara-building-logo.png" alt="SAWARA BUILDING" width="70" height="70"></a>
       <div id="stage" class="stage" aria-label="3D模型。ホイールで拡大縮小、右ドラッグまたはタッチで回転。クリックで案内モード。">
         <img id="fallback" class="fallback" src="diagnostics/section-review/B1-candidate.png" alt="鰆ビルヂング、B1方向から見た中央吹抜の断面。">
       </div>
@@ -44,6 +46,7 @@
       <div class="archive-heading"><h2 id="archive-heading"><a href="./archives/index.html">ARCHIVES</a></h2></div>
     </section>
   </main>
+  <script type="module">import {enableTapNavigation} from './assets/js/tap-link.js';enableTapNavigation(document.querySelector('.guide-logo'));</script>
   <noscript><nav class="no-script-navigation" aria-label="フロア案内"><a href="./archives/index.html">ARCHIVES</a></nav></noscript>
 </body>
 </html>

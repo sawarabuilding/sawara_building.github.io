@@ -1,0 +1,155 @@
+{
+  "accepted_candidate": "B1",
+  "view": "Blender -Y towards +Y / Three +Z towards -Z",
+  "plane_blender_y_m": -0.12166643142700195,
+  "plane_original_y_mm": 11770.959377288818,
+  "plane_three_z_m": 0.12166643142700195,
+  "keep": "Blender Y >= plane; Three Z <= plane",
+  "source_sha256": "30434d883e34d27e101da17a70ed538e80961535bc3ec74fb720499d2feb4970",
+  "source_unchanged": true,
+  "changed_materials": [
+    "Concrete_RC_confirmed_by_group",
+    "Glass_source_material",
+    "Wood_Rhino_layers"
+  ],
+  "exterior": {
+    "meshes": 14,
+    "triangles": 433290,
+    "minimum": [
+      -7.500000953674316,
+      -9.333334922790527,
+      -1.0
+    ],
+    "maximum": [
+      7.499998092651367,
+      9.333332061767578,
+      17.079999923706055
+    ]
+  },
+  "section": {
+    "meshes": 13,
+    "triangles": 402362,
+    "minimum": [
+      -7.500000953674316,
+      -0.12166690826416016,
+      -1.0
+    ],
+    "maximum": [
+      7.499998092651367,
+      9.333332061767578,
+      17.079999923706055
+    ]
+  },
+  "reimport": {
+    "meshes": 13,
+    "triangles": 402362,
+    "minimum": [
+      -7.500000953674316,
+      -0.12166690826416016,
+      -1.0
+    ],
+    "maximum": [
+      7.499998092651367,
+      9.333332061767578,
+      17.079999923706055
+    ]
+  },
+  "cut_results": [
+    {
+      "mesh": "web_00____",
+      "cut_edges": 0,
+      "cap_faces": 0,
+      "unclosed_cut_edges": 0
+    },
+    {
+      "mesh": "web_01_UNMAPPED",
+      "cut_edges": 0,
+      "cap_faces": 0,
+      "unclosed_cut_edges": 0
+    },
+    {
+      "mesh": "web_02_____hide",
+      "cut_edges": 8,
+      "cap_faces": 0,
+      "unclosed_cut_edges": 8
+    },
+    {
+      "mesh": "web_03_RC_",
+      "cut_edges": 267,
+      "cap_faces": 4,
+      "unclosed_cut_edges": 0
+    },
+    {
+      "mesh": "web_04____",
+      "cut_edges": 16,
+      "cap_faces": 2,
+      "unclosed_cut_edges": 0
+    },
+    {
+      "mesh": "web_05__",
+      "cut_edges": 231,
+      "cap_faces": 26,
+      "unclosed_cut_edges": 0
+    },
+    {
+      "mesh": "web_06__",
+      "cut_edges": 660,
+      "cap_faces": 83,
+      "unclosed_cut_edges": 0
+    },
+    {
+      "mesh": "web_07_RC__",
+      "cut_edges": 24,
+      "cap_faces": 2,
+      "unclosed_cut_edges": 6
+    },
+    {
+      "mesh": "web_08____",
+      "cut_edges": 64,
+      "cap_faces": 8,
+      "unclosed_cut_edges": 0
+    },
+    {
+      "mesh": "web_09____",
+      "cut_edges": 26,
+      "cap_faces": 3,
+      "unclosed_cut_edges": 0
+    },
+    {
+      "mesh": "web_10___",
+      "cut_edges": 12,
+      "cap_faces": 0,
+      "unclosed_cut_edges": 12
+    },
+    {
+      "mesh": "web_11_RC___",
+      "cut_edges": 0,
+      "cap_faces": 0,
+      "unclosed_cut_edges": 0
+    },
+    {
+      "mesh": "web_12______",
+      "cut_edges": 0,
+      "cap_faces": 0,
+      "unclosed_cut_edges": 0
+    },
+    {
+      "mesh": "web_13__________",
+      "cut_edges": 14,
+      "cap_faces": 2,
+      "unclosed_cut_edges": 0
+    }
+  ],
+  "exterior_bytes": 15722352,
+  "section_bytes": 13694716,
+  "floor_elevations_m": [
+    0.1,
+    2.83,
+    5.56,
+    8.29,
+    11.02
+  ],
+  "roof_floor_m": 13.75,
+  "floor_basis": "Source Rhino floor solids: top elevations; source plan cuts confirm 1F..4F ordering",
+  "cap_note": "Caps fill closed cut loops only. Pre-existing open surfaces are recorded, never repaired by guessing."
+}
