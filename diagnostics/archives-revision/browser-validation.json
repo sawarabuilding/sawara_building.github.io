@@ -1,0 +1,872 @@
+{
+  "checks": [
+    "All 3 desktop sizes: no vertical/horizontal scroll, full model/labels/gateway fit",
+    "Exterior auto rotation, wheel zoom and right drag",
+    "Guide transition and wheel floor navigation",
+    "20% glass in both modes; wood/concrete remain opaque",
+    "ARCHIVES type scale is halved",
+    "No top-right text or individual archive entries",
+    "Gateway link is separate from model controls",
+    "Archive title returns to page top",
+    "Archive title keyboard and hover states",
+    "Temporary building wordmark returns to 3D homepage",
+    "9 user-supplied titles, no dummy links/images or extra serial numbers",
+    "Black archive page, single-line outline title, 3 intentionally mixed columns",
+    "Mobile orbit, guide tap and touch floor changes",
+    "Mobile archive title/logo navigation, 1 column, no overlap",
+    "Tablet archive is 2 columns",
+    "Every existing GLB hash unchanged"
+  ],
+  "errors": [],
+  "badResponses": [],
+  "desktop": [
+    {
+      "exterior": {
+        "mode": "exterior",
+        "viewport": [
+          1366,
+          768
+        ],
+        "scroll": [
+          1366,
+          768
+        ],
+        "bounds": {
+          "left": 437.93379307607387,
+          "top": 148.4035843077945,
+          "right": 937.2739239297154,
+          "bottom": 653.1426995461642
+        },
+        "glass": [
+          {
+            "opacity": 0.2,
+            "transparent": true,
+            "depthWrite": false
+          }
+        ],
+        "opaque": [
+          {
+            "name": "Concrete_RC_confirmed_by_group",
+            "opacity": 1
+          },
+          {
+            "name": "Wood_Rhino_layers",
+            "opacity": 1
+          },
+          {
+            "name": "Concrete_RC_confirmed_by_group",
+            "opacity": 1
+          },
+          {
+            "name": "Wood_Rhino_layers",
+            "opacity": 1
+          },
+          {
+            "name": "Concrete_RC_confirmed_by_group",
+            "opacity": 1
+          }
+        ],
+        "gateway": {
+          "x": 1113.203125,
+          "y": 601.125,
+          "width": 170.84375,
+          "height": 44,
+          "top": 601.125,
+          "right": 1284.046875,
+          "bottom": 645.125,
+          "left": 1113.203125
+        },
+        "archiveFont": 36.882,
+        "labels": [
+          {
+            "x": 1091.375,
+            "y": 230.390625,
+            "width": 220,
+            "height": 50,
+            "top": 230.390625,
+            "right": 1311.375,
+            "bottom": 280.390625,
+            "left": 1091.375
+          },
+          {
+            "x": 1091.375,
+            "y": 280.390625,
+            "width": 220,
+            "height": 50,
+            "top": 280.390625,
+            "right": 1311.375,
+            "bottom": 330.390625,
+            "left": 1091.375
+          },
+          {
+            "x": 1091.375,
+            "y": 330.390625,
+            "width": 220,
+            "height": 50,
+            "top": 330.390625,
+            "right": 1311.375,
+            "bottom": 380.390625,
+            "left": 1091.375
+          },
+          {
+            "x": 1091.375,
+            "y": 380.390625,
+            "width": 220,
+            "height": 50,
+            "top": 380.390625,
+            "right": 1311.375,
+            "bottom": 430.390625,
+            "left": 1091.375
+          },
+          {
+            "x": 1091.375,
+            "y": 430.390625,
+            "width": 220,
+            "height": 50,
+            "top": 430.390625,
+            "right": 1311.375,
+            "bottom": 480.390625,
+            "left": 1091.375
+          }
+        ]
+      },
+      "guide": {
+        "mode": "guide",
+        "viewport": [
+          1366,
+          768
+        ],
+        "scroll": [
+          1366,
+          768
+        ],
+        "bounds": {
+          "left": 331.7793531697701,
+          "top": 144.7546742179473,
+          "right": 706.3805753807125,
+          "bottom": 596.274039415554
+        },
+        "glass": [
+          {
+            "opacity": 0.2,
+            "transparent": true,
+            "depthWrite": false
+          }
+        ],
+        "opaque": [
+          {
+            "name": "Concrete_RC_confirmed_by_group",
+            "opacity": 1
+          },
+          {
+            "name": "Wood_Rhino_layers",
+            "opacity": 1
+          },
+          {
+            "name": "Concrete_RC_confirmed_by_group",
+            "opacity": 1
+          },
+          {
+            "name": "Wood_Rhino_layers",
+            "opacity": 1
+          },
+          {
+            "name": "Concrete_RC_confirmed_by_group",
+            "opacity": 1
+          }
+        ],
+        "gateway": {
+          "x": 833.25,
+          "y": 584.796875,
+          "width": 169.375,
+          "height": 44,
+          "top": 584.796875,
+          "right": 1002.625,
+          "bottom": 628.796875,
+          "left": 833.25
+        },
+        "archiveFont": 36.882,
+        "labels": [
+          {
+            "x": 721.359375,
+            "y": 252.859375,
+            "width": 235,
+            "height": 44,
+            "top": 252.859375,
+            "right": 956.359375,
+            "bottom": 296.859375,
+            "left": 721.359375
+          },
+          {
+            "x": 721.359375,
+            "y": 321.03125,
+            "width": 235,
+            "height": 44,
+            "top": 321.03125,
+            "right": 956.359375,
+            "bottom": 365.03125,
+            "left": 721.359375
+          },
+          {
+            "x": 721.359375,
+            "y": 389.21875,
+            "width": 235,
+            "height": 44,
+            "top": 389.21875,
+            "right": 956.359375,
+            "bottom": 433.21875,
+            "left": 721.359375
+          },
+          {
+            "x": 721.359375,
+            "y": 457.390625,
+            "width": 235,
+            "height": 44,
+            "top": 457.390625,
+            "right": 956.359375,
+            "bottom": 501.390625,
+            "left": 721.359375
+          },
+          {
+            "x": 721.359375,
+            "y": 525.5625,
+            "width": 235,
+            "height": 44,
+            "top": 525.5625,
+            "right": 956.359375,
+            "bottom": 569.5625,
+            "left": 721.359375
+          }
+        ]
+      }
+    },
+    {
+      "exterior": {
+        "mode": "exterior",
+        "viewport": [
+          1440,
+          900
+        ],
+        "scroll": [
+          1440,
+          900
+        ],
+        "bounds": {
+          "left": 431.94835693193164,
+          "top": 173.9967086601183,
+          "right": 1018.0703607192457,
+          "bottom": 765.2883736822182
+        },
+        "glass": [
+          {
+            "opacity": 0.2,
+            "transparent": true,
+            "depthWrite": false
+          }
+        ],
+        "opaque": [
+          {
+            "name": "Concrete_RC_confirmed_by_group",
+            "opacity": 1
+          },
+          {
+            "name": "Wood_Rhino_layers",
+            "opacity": 1
+          },
+          {
+            "name": "Concrete_RC_confirmed_by_group",
+            "opacity": 1
+          },
+          {
+            "name": "Wood_Rhino_layers",
+            "opacity": 1
+          },
+          {
+            "name": "Concrete_RC_confirmed_by_group",
+            "opacity": 1
+          }
+        ],
+        "gateway": {
+          "x": 1173.5,
+          "y": 712,
+          "width": 180.109375,
+          "height": 44,
+          "top": 712,
+          "right": 1353.609375,
+          "bottom": 756,
+          "left": 1173.5
+        },
+        "archiveFont": 38.88,
+        "labels": [
+          {
+            "x": 1162.40625,
+            "y": 270,
+            "width": 220,
+            "height": 50,
+            "top": 270,
+            "right": 1382.40625,
+            "bottom": 320,
+            "left": 1162.40625
+          },
+          {
+            "x": 1162.40625,
+            "y": 320,
+            "width": 220,
+            "height": 50,
+            "top": 320,
+            "right": 1382.40625,
+            "bottom": 370,
+            "left": 1162.40625
+          },
+          {
+            "x": 1162.40625,
+            "y": 370,
+            "width": 220,
+            "height": 50,
+            "top": 370,
+            "right": 1382.40625,
+            "bottom": 420,
+            "left": 1162.40625
+          },
+          {
+            "x": 1162.40625,
+            "y": 420,
+            "width": 220,
+            "height": 50,
+            "top": 420,
+            "right": 1382.40625,
+            "bottom": 470,
+            "left": 1162.40625
+          },
+          {
+            "x": 1162.40625,
+            "y": 470,
+            "width": 220,
+            "height": 50,
+            "top": 470,
+            "right": 1382.40625,
+            "bottom": 520,
+            "left": 1162.40625
+          }
+        ]
+      },
+      "guide": {
+        "mode": "guide",
+        "viewport": [
+          1440,
+          900
+        ],
+        "scroll": [
+          1440,
+          900
+        ],
+        "bounds": {
+          "left": 327.70705449582437,
+          "top": 169.63438384915696,
+          "right": 766.6928617742723,
+          "bottom": 698.7586399401023
+        },
+        "glass": [
+          {
+            "opacity": 0.2,
+            "transparent": true,
+            "depthWrite": false
+          }
+        ],
+        "opaque": [
+          {
+            "name": "Concrete_RC_confirmed_by_group",
+            "opacity": 1
+          },
+          {
+            "name": "Wood_Rhino_layers",
+            "opacity": 1
+          },
+          {
+            "name": "Concrete_RC_confirmed_by_group",
+            "opacity": 1
+          },
+          {
+            "name": "Wood_Rhino_layers",
+            "opacity": 1
+          },
+          {
+            "name": "Concrete_RC_confirmed_by_group",
+            "opacity": 1
+          }
+        ],
+        "gateway": {
+          "x": 878.390625,
+          "y": 682.5625,
+          "width": 178.5625,
+          "height": 44,
+          "top": 682.5625,
+          "right": 1056.953125,
+          "bottom": 726.5625,
+          "left": 878.390625
+        },
+        "archiveFont": 38.88,
+        "labels": [
+          {
+            "x": 784.25,
+            "y": 300.09375,
+            "width": 235,
+            "height": 44,
+            "top": 300.09375,
+            "right": 1019.25,
+            "bottom": 344.09375,
+            "left": 784.25
+          },
+          {
+            "x": 784.25,
+            "y": 380,
+            "width": 235,
+            "height": 44,
+            "top": 380,
+            "right": 1019.25,
+            "bottom": 424,
+            "left": 784.25
+          },
+          {
+            "x": 784.25,
+            "y": 459.890625,
+            "width": 235,
+            "height": 44,
+            "top": 459.890625,
+            "right": 1019.25,
+            "bottom": 503.890625,
+            "left": 784.25
+          },
+          {
+            "x": 784.25,
+            "y": 539.78125,
+            "width": 235,
+            "height": 44,
+            "top": 539.78125,
+            "right": 1019.25,
+            "bottom": 583.78125,
+            "left": 784.25
+          },
+          {
+            "x": 784.25,
+            "y": 619.6875,
+            "width": 235,
+            "height": 44,
+            "top": 619.6875,
+            "right": 1019.25,
+            "bottom": 663.6875,
+            "left": 784.25
+          }
+        ]
+      }
+    },
+    {
+      "exterior": {
+        "mode": "exterior",
+        "viewport": [
+          1920,
+          1080
+        ],
+        "scroll": [
+          1920,
+          1080
+        ],
+        "bounds": {
+          "left": 615.5892983954843,
+          "top": 208.67259556364857,
+          "right": 1317.544571497784,
+          "bottom": 918.5065782592328
+        },
+        "glass": [
+          {
+            "opacity": 0.2,
+            "transparent": true,
+            "depthWrite": false
+          }
+        ],
+        "opaque": [
+          {
+            "name": "Concrete_RC_confirmed_by_group",
+            "opacity": 1
+          },
+          {
+            "name": "Wood_Rhino_layers",
+            "opacity": 1
+          },
+          {
+            "name": "Concrete_RC_confirmed_by_group",
+            "opacity": 1
+          },
+          {
+            "name": "Wood_Rhino_layers",
+            "opacity": 1
+          },
+          {
+            "name": "Concrete_RC_confirmed_by_group",
+            "opacity": 1
+          }
+        ],
+        "gateway": {
+          "x": 1605.609375,
+          "y": 863.203125,
+          "width": 199.203125,
+          "height": 44,
+          "top": 863.203125,
+          "right": 1804.8125,
+          "bottom": 907.203125,
+          "left": 1605.609375
+        },
+        "archiveFont": 43,
+        "labels": [
+          {
+            "x": 1623.203125,
+            "y": 324,
+            "width": 220,
+            "height": 50,
+            "top": 324,
+            "right": 1843.203125,
+            "bottom": 374,
+            "left": 1623.203125
+          },
+          {
+            "x": 1623.203125,
+            "y": 374,
+            "width": 220,
+            "height": 50,
+            "top": 374,
+            "right": 1843.203125,
+            "bottom": 424,
+            "left": 1623.203125
+          },
+          {
+            "x": 1623.203125,
+            "y": 424,
+            "width": 220,
+            "height": 50,
+            "top": 424,
+            "right": 1843.203125,
+            "bottom": 474,
+            "left": 1623.203125
+          },
+          {
+            "x": 1623.203125,
+            "y": 474,
+            "width": 220,
+            "height": 50,
+            "top": 474,
+            "right": 1843.203125,
+            "bottom": 524,
+            "left": 1623.203125
+          },
+          {
+            "x": 1623.203125,
+            "y": 524,
+            "width": 220,
+            "height": 50,
+            "top": 524,
+            "right": 1843.203125,
+            "bottom": 574,
+            "left": 1623.203125
+          }
+        ]
+      },
+      "guide": {
+        "mode": "guide",
+        "viewport": [
+          1920,
+          1080
+        ],
+        "scroll": [
+          1920,
+          1080
+        ],
+        "bounds": {
+          "left": 466.20846539498933,
+          "top": 203.56126061898846,
+          "right": 992.9914341291269,
+          "bottom": 838.5103679281227
+        },
+        "glass": [
+          {
+            "opacity": 0.2,
+            "transparent": true,
+            "depthWrite": false
+          }
+        ],
+        "opaque": [
+          {
+            "name": "Concrete_RC_confirmed_by_group",
+            "opacity": 1
+          },
+          {
+            "name": "Wood_Rhino_layers",
+            "opacity": 1
+          },
+          {
+            "name": "Concrete_RC_confirmed_by_group",
+            "opacity": 1
+          },
+          {
+            "name": "Wood_Rhino_layers",
+            "opacity": 1
+          },
+          {
+            "name": "Concrete_RC_confirmed_by_group",
+            "opacity": 1
+          }
+        ],
+        "gateway": {
+          "x": 1171.1875,
+          "y": 815.875,
+          "width": 197.484375,
+          "height": 44,
+          "top": 815.875,
+          "right": 1368.671875,
+          "bottom": 859.875,
+          "left": 1171.1875
+        },
+        "archiveFont": 43,
+        "labels": [
+          {
+            "x": 1014.0625,
+            "y": 364.515625,
+            "width": 235,
+            "height": 44,
+            "top": 364.515625,
+            "right": 1249.0625,
+            "bottom": 408.515625,
+            "left": 1014.0625
+          },
+          {
+            "x": 1014.0625,
+            "y": 460.390625,
+            "width": 235,
+            "height": 44,
+            "top": 460.390625,
+            "right": 1249.0625,
+            "bottom": 504.390625,
+            "left": 1014.0625
+          },
+          {
+            "x": 1014.0625,
+            "y": 556.265625,
+            "width": 235,
+            "height": 44,
+            "top": 556.265625,
+            "right": 1249.0625,
+            "bottom": 600.265625,
+            "left": 1014.0625
+          },
+          {
+            "x": 1014.0625,
+            "y": 652.140625,
+            "width": 235,
+            "height": 44,
+            "top": 652.140625,
+            "right": 1249.0625,
+            "bottom": 696.140625,
+            "left": 1014.0625
+          },
+          {
+            "x": 1014.0625,
+            "y": 748.015625,
+            "width": 235,
+            "height": 44,
+            "top": 748.015625,
+            "right": 1249.0625,
+            "bottom": 792.015625,
+            "left": 1014.0625
+          }
+        ]
+      }
+    }
+  ],
+  "archive": {
+    "background": "rgba(0, 0, 0, 0)",
+    "rootBackground": "rgb(0, 0, 0)",
+    "title": {
+      "x": 57.59375,
+      "y": 38,
+      "width": 946.953125,
+      "height": 74.078125,
+      "top": 38,
+      "right": 1004.546875,
+      "bottom": 112.078125,
+      "left": 57.59375
+    },
+    "logo": {
+      "x": 1325.40625,
+      "y": 38,
+      "width": 57,
+      "height": 44,
+      "top": 38,
+      "right": 1382.40625,
+      "bottom": 82,
+      "left": 1325.40625
+    },
+    "titleStyle": {
+      "fill": "rgba(0, 0, 0, 0)",
+      "stroke": "0.8px",
+      "whiteSpace": "nowrap"
+    },
+    "columns": 3,
+    "overflow": false,
+    "articles": [
+      {
+        "title": "SAWARABAN 1号",
+        "category": "FREE PAPER",
+        "rect": {
+          "x": 86.390625,
+          "y": 197.078125,
+          "width": 333.890625,
+          "height": 111.203125,
+          "top": 197.078125,
+          "right": 420.28125,
+          "bottom": 308.28125,
+          "left": 86.390625
+        }
+      },
+      {
+        "title": "building #1",
+        "category": "ARCHITECTURE",
+        "rect": {
+          "x": 542.390625,
+          "y": 197.078125,
+          "width": 355.203125,
+          "height": 258.703125,
+          "top": 197.078125,
+          "right": 897.59375,
+          "bottom": 455.78125,
+          "left": 542.390625
+        }
+      },
+      {
+        "title": "2026.7.19-20 ZINEフェス",
+        "category": "EVENT",
+        "rect": {
+          "x": 998.390625,
+          "y": 197.078125,
+          "width": 316.140625,
+          "height": 193.1875,
+          "top": 197.078125,
+          "right": 1314.53125,
+          "bottom": 390.265625,
+          "left": 998.390625
+        }
+      },
+      {
+        "title": "収支報告書2026",
+        "category": "MONEY",
+        "rect": {
+          "x": 86.390625,
+          "y": 560.78125,
+          "width": 319.671875,
+          "height": 192.59375,
+          "top": 560.78125,
+          "right": 406.0625,
+          "bottom": 753.375,
+          "left": 86.390625
+        }
+      },
+      {
+        "title": "SAWARABAN 3号",
+        "category": "FREE PAPER",
+        "rect": {
+          "x": 542.390625,
+          "y": 560.78125,
+          "width": 355.203125,
+          "height": 205.40625,
+          "top": 560.78125,
+          "right": 897.59375,
+          "bottom": 766.1875,
+          "left": 542.390625
+        }
+      },
+      {
+        "title": "building #2",
+        "category": "ARCHITECTURE",
+        "rect": {
+          "x": 998.390625,
+          "y": 560.78125,
+          "width": 330.34375,
+          "height": 261.203125,
+          "top": 560.78125,
+          "right": 1328.734375,
+          "bottom": 821.984375,
+          "left": 998.390625
+        }
+      },
+      {
+        "title": "2026.9.26 西神中央",
+        "category": "EVENT",
+        "rect": {
+          "x": 86.390625,
+          "y": 926.984375,
+          "width": 319.671875,
+          "height": 188.40625,
+          "top": 926.984375,
+          "right": 406.0625,
+          "bottom": 1115.390625,
+          "left": 86.390625
+        }
+      },
+      {
+        "title": "building #3",
+        "category": "ARCHITECTURE",
+        "rect": {
+          "x": 542.390625,
+          "y": 926.984375,
+          "width": 355.203125,
+          "height": 243.703125,
+          "top": 926.984375,
+          "right": 897.59375,
+          "bottom": 1170.6875,
+          "left": 542.390625
+        }
+      },
+      {
+        "title": "SAWARABAN 2号",
+        "category": "FREE PAPER",
+        "rect": {
+          "x": 998.390625,
+          "y": 926.984375,
+          "width": 316.140625,
+          "height": 158.40625,
+          "top": 926.984375,
+          "right": 1314.53125,
+          "bottom": 1085.390625,
+          "left": 998.390625
+        }
+      }
+    ]
+  },
+  "hover": {
+    "fill": "rgb(255, 255, 255)",
+    "shadow": "rgba(255, 255, 255, 0.376) 0px 0px 12px, rgba(255, 255, 255, 0.157) 0px 0px 26px"
+  },
+  "mobileArchive": {
+    "columns": 1,
+    "title": {
+      "x": 19.5,
+      "y": 29,
+      "width": 218.4375,
+      "height": 44,
+      "top": 29,
+      "right": 237.9375,
+      "bottom": 73,
+      "left": 19.5
+    },
+    "logo": {
+      "x": 326.5,
+      "y": 25,
+      "width": 44,
+      "height": 44,
+      "top": 25,
+      "right": 370.5,
+      "bottom": 69,
+      "left": 326.5
+    },
+    "overflow": false
+  },
+  "modelHashesUnchanged": true
+}

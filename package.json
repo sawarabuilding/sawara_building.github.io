@@ -1,0 +1,17 @@
+{
+  "name": "sawara-building",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "node scripts/serve.cjs",
+    "vendor": "node scripts/vendor.cjs",
+    "check:browser": "node scripts/check-final-v1.cjs",
+    "check:touch": "node scripts/check-final-touch.cjs"
+  },
+  "dependencies": {
+    "three": "0.187.0"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.64.1"
+  }
+}

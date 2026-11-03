@@ -1,0 +1,5 @@
+/* Shared upper-right logo geometry, matching the existing cafe/archives header. */
+.building-logo{position:fixed;z-index:10;right:4vw;top:38px;padding:5px 0;min-width:57px;min-height:44px}
+.building-logo img{display:block;width:70px;height:70px;object-fit:contain}
+.building-logo:hover{opacity:.65}
+@media(max-width:700px){.building-logo{right:5vw;top:25px;padding:4px 0;min-width:44px}.building-logo img{width:44px;height:56px}}

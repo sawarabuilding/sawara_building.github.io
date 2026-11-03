@@ -1,0 +1,100 @@
+{
+  "blender": "5.2.0 LTS",
+  "sources": {
+    "C:\\sawara_building\\sawara-building.obj": {
+      "bytes": 67150678,
+      "sha256": "374fec478d6d9033f9514f21123f8a7b9c59a1da07c7b7ceaa3b0bd969a9663f"
+    },
+    "C:\\sawara_building\\sawara-building.mtl": {
+      "bytes": 434,
+      "sha256": "983c156ee542d834536643bc4e4c823110888b47e647b83d345c0bc3ae9d0f45"
+    }
+  },
+  "source_axis": "Rhino Z-up assumed; no rotation on import; glTF Y-up on export",
+  "scale": 0.001,
+  "lossy_mesh_reduction": false,
+  "materials": [
+    {
+      "name": "diffuse_0",
+      "diffuse": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "Material",
+      "diffuse": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1
+      ]
+    },
+    {
+      "name": "wire_000000000",
+      "diffuse": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "ガラス",
+      "diffuse": [
+        0,
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "imported": {
+    "objects": 5228,
+    "triangles": 433318,
+    "bounds_min": [
+      -157.28231811523438,
+      -421.3025817871094,
+      -1
+    ],
+    "bounds_max": [
+      27.272438049316406,
+      21.22595977783203,
+      17.079999923706055
+    ],
+    "dimensions_m": [
+      184.55475616455078,
+      442.5285415649414,
+      18.079999923706055
+    ]
+  },
+  "reimported": {
+    "objects": 5228,
+    "triangles": 433318,
+    "bounds_min": [
+      -157.28231811523438,
+      -421.3025817871094,
+      -1
+    ],
+    "bounds_max": [
+      27.272438049316406,
+      21.22595977783203,
+      17.079999923706055
+    ],
+    "dimensions_m": [
+      184.55475616455078,
+      442.5285415649414,
+      18.079999923706055
+    ]
+  },
+  "output_bytes": 15855164,
+  "output_sha256": "6503b43b8aa10740c950e27b9b97d8631482e5a9dec94f1267e0af310259f1ff",
+  "validation": "PASS",
+  "warnings": [
+    "OBJ importer reported invalid parm numbers for two B-spline curves; non-mesh curves were omitted. Mesh validation does not cover these curves.",
+    "Source MTL defines black diffuse colors and glass opacity 0; visual appearance has not been rendered for comparison.",
+    "Overall mesh bounds are approximately 184.55 x 442.53 x 18.08 m; distant geometry retained from source."
+  ]
+}

@@ -1,0 +1,375 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "width": 1366,
+      "height": 768,
+      "sizes": {
+        "natural": [
+          998,
+          1400
+        ],
+        "box": {
+          "x": 81.953125,
+          "y": 218,
+          "width": 245.875,
+          "height": 344.90625,
+          "top": 218,
+          "right": 327.828125,
+          "bottom": 562.90625,
+          "left": 81.953125
+        },
+        "shadow": "none",
+        "border": "0px"
+      },
+      "links": [
+        {
+          "title": "SAWARABAN 1号",
+          "url": "./sawaraban-1.html"
+        },
+        {
+          "title": "building #1",
+          "url": "./building-1.html"
+        },
+        {
+          "title": "2026.7.19-20 ZINEフェス",
+          "url": "./zine-fes-2026.html"
+        },
+        {
+          "title": "収支報告書2026",
+          "url": "./money-2026.html"
+        },
+        {
+          "title": "SAWARABAN 3号",
+          "url": "./sawaraban-3.html"
+        },
+        {
+          "title": "building #2",
+          "url": "./building-2.html"
+        },
+        {
+          "title": "2026.9.26 西神中央",
+          "url": "./seishin-2026.html"
+        },
+        {
+          "title": "building #3",
+          "url": "./building-3.html"
+        },
+        {
+          "title": "SAWARABAN 2号",
+          "url": "./sawaraban-2.html"
+        }
+      ],
+      "font": "unavailable; existing title retained without substitution"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "sizes": {
+        "natural": [
+          998,
+          1400
+        ],
+        "box": {
+          "x": 86.390625,
+          "y": 218,
+          "width": 259.1875,
+          "height": 363.578125,
+          "top": 218,
+          "right": 345.578125,
+          "bottom": 581.578125,
+          "left": 86.390625
+        },
+        "shadow": "none",
+        "border": "0px"
+      },
+      "links": [
+        {
+          "title": "SAWARABAN 1号",
+          "url": "./sawaraban-1.html"
+        },
+        {
+          "title": "building #1",
+          "url": "./building-1.html"
+        },
+        {
+          "title": "2026.7.19-20 ZINEフェス",
+          "url": "./zine-fes-2026.html"
+        },
+        {
+          "title": "収支報告書2026",
+          "url": "./money-2026.html"
+        },
+        {
+          "title": "SAWARABAN 3号",
+          "url": "./sawaraban-3.html"
+        },
+        {
+          "title": "building #2",
+          "url": "./building-2.html"
+        },
+        {
+          "title": "2026.9.26 西神中央",
+          "url": "./seishin-2026.html"
+        },
+        {
+          "title": "building #3",
+          "url": "./building-3.html"
+        },
+        {
+          "title": "SAWARABAN 2号",
+          "url": "./sawaraban-2.html"
+        }
+      ],
+      "font": "unavailable; existing title retained without substitution"
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "sizes": {
+        "natural": [
+          998,
+          1400
+        ],
+        "box": {
+          "x": 115.1875,
+          "y": 230.390625,
+          "width": 345.59375,
+          "height": 484.796875,
+          "top": 230.390625,
+          "right": 460.78125,
+          "bottom": 715.1875,
+          "left": 115.1875
+        },
+        "shadow": "none",
+        "border": "0px"
+      },
+      "links": [
+        {
+          "title": "SAWARABAN 1号",
+          "url": "./sawaraban-1.html"
+        },
+        {
+          "title": "building #1",
+          "url": "./building-1.html"
+        },
+        {
+          "title": "2026.7.19-20 ZINEフェス",
+          "url": "./zine-fes-2026.html"
+        },
+        {
+          "title": "収支報告書2026",
+          "url": "./money-2026.html"
+        },
+        {
+          "title": "SAWARABAN 3号",
+          "url": "./sawaraban-3.html"
+        },
+        {
+          "title": "building #2",
+          "url": "./building-2.html"
+        },
+        {
+          "title": "2026.9.26 西神中央",
+          "url": "./seishin-2026.html"
+        },
+        {
+          "title": "building #3",
+          "url": "./building-3.html"
+        },
+        {
+          "title": "SAWARABAN 2号",
+          "url": "./sawaraban-2.html"
+        }
+      ],
+      "font": "unavailable; existing title retained without substitution"
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "sizes": {
+        "natural": [
+          998,
+          1400
+        ],
+        "box": {
+          "x": 49.1875,
+          "y": 218,
+          "width": 147.59375,
+          "height": 207.03125,
+          "top": 218,
+          "right": 196.78125,
+          "bottom": 425.03125,
+          "left": 49.1875
+        },
+        "shadow": "none",
+        "border": "0px"
+      },
+      "links": [
+        {
+          "title": "SAWARABAN 1号",
+          "url": "./sawaraban-1.html"
+        },
+        {
+          "title": "building #1",
+          "url": "./building-1.html"
+        },
+        {
+          "title": "2026.7.19-20 ZINEフェス",
+          "url": "./zine-fes-2026.html"
+        },
+        {
+          "title": "収支報告書2026",
+          "url": "./money-2026.html"
+        },
+        {
+          "title": "SAWARABAN 3号",
+          "url": "./sawaraban-3.html"
+        },
+        {
+          "title": "building #2",
+          "url": "./building-2.html"
+        },
+        {
+          "title": "2026.9.26 西神中央",
+          "url": "./seishin-2026.html"
+        },
+        {
+          "title": "building #3",
+          "url": "./building-3.html"
+        },
+        {
+          "title": "SAWARABAN 2号",
+          "url": "./sawaraban-2.html"
+        }
+      ],
+      "font": "unavailable; existing title retained without substitution"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "sizes": {
+        "natural": [
+          998,
+          1400
+        ],
+        "box": {
+          "x": 35.09375,
+          "y": 172.75,
+          "width": 265.1875,
+          "height": 372,
+          "top": 172.75,
+          "right": 300.28125,
+          "bottom": 544.75,
+          "left": 35.09375
+        },
+        "shadow": "none",
+        "border": "0px"
+      },
+      "links": [
+        {
+          "title": "SAWARABAN 1号",
+          "url": "./sawaraban-1.html"
+        },
+        {
+          "title": "building #1",
+          "url": "./building-1.html"
+        },
+        {
+          "title": "2026.7.19-20 ZINEフェス",
+          "url": "./zine-fes-2026.html"
+        },
+        {
+          "title": "収支報告書2026",
+          "url": "./money-2026.html"
+        },
+        {
+          "title": "SAWARABAN 3号",
+          "url": "./sawaraban-3.html"
+        },
+        {
+          "title": "building #2",
+          "url": "./building-2.html"
+        },
+        {
+          "title": "2026.9.26 西神中央",
+          "url": "./seishin-2026.html"
+        },
+        {
+          "title": "building #3",
+          "url": "./building-3.html"
+        },
+        {
+          "title": "SAWARABAN 2号",
+          "url": "./sawaraban-2.html"
+        }
+      ],
+      "font": "unavailable; existing title retained without substitution"
+    },
+    {
+      "width": 375,
+      "height": 667,
+      "sizes": {
+        "natural": [
+          998,
+          1400
+        ],
+        "box": {
+          "x": 33.75,
+          "y": 172.75,
+          "width": 255,
+          "height": 357.703125,
+          "top": 172.75,
+          "right": 288.75,
+          "bottom": 530.453125,
+          "left": 33.75
+        },
+        "shadow": "none",
+        "border": "0px"
+      },
+      "links": [
+        {
+          "title": "SAWARABAN 1号",
+          "url": "./sawaraban-1.html"
+        },
+        {
+          "title": "building #1",
+          "url": "./building-1.html"
+        },
+        {
+          "title": "2026.7.19-20 ZINEフェス",
+          "url": "./zine-fes-2026.html"
+        },
+        {
+          "title": "収支報告書2026",
+          "url": "./money-2026.html"
+        },
+        {
+          "title": "SAWARABAN 3号",
+          "url": "./sawaraban-3.html"
+        },
+        {
+          "title": "building #2",
+          "url": "./building-2.html"
+        },
+        {
+          "title": "2026.9.26 西神中央",
+          "url": "./seishin-2026.html"
+        },
+        {
+          "title": "building #3",
+          "url": "./building-3.html"
+        },
+        {
+          "title": "SAWARABAN 2号",
+          "url": "./sawaraban-2.html"
+        }
+      ],
+      "font": "unavailable; existing title retained without substitution"
+    }
+  ],
+  "errors": [],
+  "bad": [],
+  "unresolved": "Eurostile Extended Black file unavailable; vertical title activation pending",
+  "unrelatedPagesUnchanged": true
+}

@@ -1,0 +1,167 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "mobile": false,
+      "checks": "Exterior, zoom/orbit, CONTENTS, direct floors, no wheel floors, model/ground exclusion, sky return, rotation resume, archives, official logo, detail navigation",
+      "metrics": {
+        "scroll": [
+          1366,
+          768
+        ],
+        "archive": {
+          "x": 54.625,
+          "y": 583.703125,
+          "width": 44,
+          "height": 169.375,
+          "top": 583.703125,
+          "right": 98.625,
+          "bottom": 753.078125,
+          "left": 54.625
+        },
+        "ground": 568.8032802595575,
+        "transform": "matrix(0, -1, 1, 0, 0, 0)",
+        "glass": [
+          [
+            "afc5d2",
+            0.2
+          ]
+        ]
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "mobile": false,
+      "checks": "Exterior, zoom/orbit, CONTENTS, direct floors, no wheel floors, model/ground exclusion, sky return, rotation resume, archives, official logo, detail navigation",
+      "metrics": {
+        "scroll": [
+          1440,
+          900
+        ],
+        "archive": {
+          "x": 57.59375,
+          "y": 693.984375,
+          "width": 44,
+          "height": 178.5625,
+          "top": 693.984375,
+          "right": 101.59375,
+          "bottom": 872.546875,
+          "left": 57.59375
+        },
+        "ground": 666.566344054169,
+        "transform": "matrix(0, -1, 1, 0, 0, 0)",
+        "glass": [
+          [
+            "afc5d2",
+            0.2
+          ]
+        ]
+      }
+    },
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "mobile": false,
+      "checks": "Exterior, zoom/orbit, CONTENTS, direct floors, no wheel floors, model/ground exclusion, sky return, rotation resume, archives, official logo, detail navigation",
+      "metrics": {
+        "scroll": [
+          1920,
+          1080
+        ],
+        "archive": {
+          "x": 76.8046875,
+          "y": 841.1796875,
+          "width": 44,
+          "height": 197.484375,
+          "top": 841.1796875,
+          "right": 120.8046875,
+          "bottom": 1038.6640625,
+          "left": 76.8046875
+        },
+        "ground": 799.8796128650029,
+        "transform": "matrix(0, -1, 1, 0, 0, 0)",
+        "glass": [
+          [
+            "afc5d2",
+            0.2
+          ]
+        ]
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "mobile": true,
+      "checks": "Exterior, zoom/orbit, CONTENTS, direct floors, no wheel floors, model/ground exclusion, sky return, rotation resume, archives, official logo, detail navigation",
+      "metrics": {
+        "scroll": [
+          390,
+          844
+        ],
+        "archive": {
+          "x": 15.59375,
+          "y": 651.015625,
+          "width": 44,
+          "height": 98.75,
+          "top": 651.015625,
+          "right": 59.59375,
+          "bottom": 749.765625,
+          "left": 15.59375
+        },
+        "ground": 556.8175080967766,
+        "transform": "matrix(0, -1, 1, 0, 0, 0)",
+        "glass": [
+          [
+            "afc5d2",
+            0.2
+          ]
+        ]
+      }
+    },
+    {
+      "viewport": [
+        375,
+        667
+      ],
+      "mobile": true,
+      "checks": "Exterior, zoom/orbit, CONTENTS, direct floors, no wheel floors, model/ground exclusion, sky return, rotation resume, archives, official logo, detail navigation",
+      "metrics": {
+        "scroll": [
+          375,
+          667
+        ],
+        "archive": {
+          "x": 15.0078125,
+          "y": 514.0078125,
+          "width": 44,
+          "height": 87.265625,
+          "top": 514.0078125,
+          "right": 59.0078125,
+          "bottom": 601.2734375,
+          "left": 15.0078125
+        },
+        "ground": 448.3262117927942,
+        "transform": "matrix(0, -1, 1, 0, 0, 0)",
+        "glass": [
+          [
+            "afc5d2",
+            0.2
+          ]
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "modelsUnchanged": true
+}

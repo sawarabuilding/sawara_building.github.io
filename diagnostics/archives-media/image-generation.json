@@ -1,0 +1,65 @@
+{
+  "assets": [
+    {
+      "file": "assets/archives/sawaraban-02/cover.webp",
+      "sourceFilename": "sawaraban-02.pdf",
+      "kind": "pdf",
+      "sourceSize": [
+        990,
+        1400
+      ],
+      "outputSize": [
+        990,
+        1400
+      ],
+      "bytes": 198724,
+      "sourceSha256": "ee12261b5d9a80db0d40eabc3ee708c159b4a34daea749e56faee948aee396c3",
+      "cropped": false,
+      "colorAdjusted": false,
+      "pageCount": 2,
+      "pageMillimeters": [
+        210.0,
+        297.0
+      ],
+      "pageRendered": 1,
+      "compression": "lossless"
+    },
+    {
+      "file": "assets/archives/zine-nagata-2026/cover.webp",
+      "sourceFilename": "DSC_0929.jpg",
+      "kind": "photo",
+      "sourceSize": [
+        1755,
+        2048
+      ],
+      "outputSize": [
+        1200,
+        1400
+      ],
+      "bytes": 460396,
+      "sourceSha256": "f3e9cadef2ec47edd24bc179530b29b6ef175cadc32dd6cead77a093212ec10c",
+      "cropped": false,
+      "colorAdjusted": false,
+      "compression": "quality 90"
+    },
+    {
+      "file": "assets/archives/zine-seishin-2026/cover.webp",
+      "sourceFilename": "DSC_1759.jpg",
+      "kind": "photo",
+      "sourceSize": [
+        2048,
+        1367
+      ],
+      "outputSize": [
+        1400,
+        934
+      ],
+      "bytes": 137314,
+      "sourceSha256": "72e061786fda677fbae034d0071b781bbecb3f358eab4accd42bda932ee9cc55",
+      "cropped": false,
+      "colorAdjusted": false,
+      "compression": "quality 90"
+    }
+  ],
+  "originalFilesUnchanged": true
+}

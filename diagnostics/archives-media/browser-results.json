@@ -1,0 +1,197 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "width": 1366,
+      "height": 768,
+      "title": {
+        "rect": {
+          "x": 32.3125,
+          "y": 48.015625,
+          "width": 43.390625,
+          "height": 671.953125,
+          "top": 48.015625,
+          "right": 75.703125,
+          "bottom": 719.96875,
+          "left": 32.3125
+        },
+        "transform": "matrix(0, -1, 1, 0, 0, 0)",
+        "font": "\"Archivo Black\", \"Arial Black\", sans-serif"
+      },
+      "logo": {
+        "x": 1241.375,
+        "y": 43,
+        "width": 70,
+        "height": 70
+      },
+      "imagesLoaded": 4,
+      "hoverAndFocus": true,
+      "fixedAndTopLink": true
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "title": {
+        "rect": {
+          "x": 28.578125,
+          "y": 56.203125,
+          "width": 50.859375,
+          "height": 787.578125,
+          "top": 56.203125,
+          "right": 79.4375,
+          "bottom": 843.78125,
+          "left": 28.578125
+        },
+        "transform": "matrix(0, -1, 1, 0, 0, 0)",
+        "font": "\"Archivo Black\", \"Arial Black\", sans-serif"
+      },
+      "logo": {
+        "x": 1312.40625,
+        "y": 43,
+        "width": 70,
+        "height": 70
+      },
+      "imagesLoaded": 4,
+      "hoverAndFocus": true,
+      "fixedAndTopLink": true
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "title": {
+        "rect": {
+          "x": 23.9921875,
+          "y": 67.5078125,
+          "width": 61.03125,
+          "height": 944.984375,
+          "top": 67.5078125,
+          "right": 85.0234375,
+          "bottom": 1012.4921875,
+          "left": 23.9921875
+        },
+        "transform": "matrix(0, -1, 1, 0, 0, 0)",
+        "font": "\"Archivo Black\", \"Arial Black\", sans-serif"
+      },
+      "logo": {
+        "x": 1773.203125,
+        "y": 43,
+        "width": 70,
+        "height": 70
+      },
+      "imagesLoaded": 4,
+      "hoverAndFocus": true,
+      "fixedAndTopLink": true
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "title": {
+        "rect": {
+          "x": 24,
+          "y": 73.75,
+          "width": 66.671875,
+          "height": 1032.484375,
+          "top": 73.75,
+          "right": 90.671875,
+          "bottom": 1106.234375,
+          "left": 24
+        },
+        "transform": "matrix(0, -1, 1, 0, 0, 0)",
+        "font": "\"Archivo Black\", \"Arial Black\", sans-serif"
+      },
+      "logo": {
+        "x": 717.203125,
+        "y": 43,
+        "width": 70,
+        "height": 70
+      },
+      "imagesLoaded": 4,
+      "hoverAndFocus": true,
+      "fixedAndTopLink": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "title": {
+        "rect": {
+          "x": 30.15625,
+          "y": 52.765625,
+          "width": 47.6875,
+          "height": 738.46875,
+          "top": 52.765625,
+          "right": 77.84375,
+          "bottom": 791.234375,
+          "left": 30.15625
+        },
+        "transform": "matrix(0, -1, 1, 0, 0, 0)",
+        "font": "\"Archivo Black\", \"Arial Black\", sans-serif"
+      },
+      "logo": {
+        "x": 326.5,
+        "y": 29,
+        "width": 44,
+        "height": 56
+      },
+      "imagesLoaded": 4,
+      "hoverAndFocus": true,
+      "fixedAndTopLink": true
+    },
+    {
+      "width": 375,
+      "height": 667,
+      "title": {
+        "rect": {
+          "x": 35.1640625,
+          "y": 41.6640625,
+          "width": 37.671875,
+          "height": 583.65625,
+          "top": 41.6640625,
+          "right": 72.8359375,
+          "bottom": 625.3203125,
+          "left": 35.1640625
+        },
+        "transform": "matrix(0, -1, 1, 0, 0, 0)",
+        "font": "\"Archivo Black\", \"Arial Black\", sans-serif"
+      },
+      "logo": {
+        "x": 312.25,
+        "y": 29,
+        "width": 44,
+        "height": 56
+      },
+      "imagesLoaded": 4,
+      "hoverAndFocus": true,
+      "fixedAndTopLink": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "title": {
+        "rect": {
+          "x": 42.984375,
+          "y": 24.40625,
+          "width": 22.03125,
+          "height": 341.1875,
+          "top": 24.40625,
+          "right": 65.015625,
+          "bottom": 365.59375,
+          "left": 42.984375
+        },
+        "transform": "matrix(0, -1, 1, 0, 0, 0)",
+        "font": "\"Archivo Black\", \"Arial Black\", sans-serif"
+      },
+      "logo": {
+        "x": 740.25,
+        "y": 43,
+        "width": 70,
+        "height": 70
+      },
+      "imagesLoaded": 4,
+      "hoverAndFocus": true,
+      "fixedAndTopLink": true
+    }
+  ],
+  "mobileFirstTapRevealsSecondTapNavigates": true,
+  "logoReturnsHome": true,
+  "errors": []
+}

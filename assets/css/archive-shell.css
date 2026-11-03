@@ -1,0 +1,50 @@
+/* Layout is unconditional: a missing optional font must never disable rotation. */
+:is(.archives-home,.archive-detail-page){--title-left:24px;--title-rail-width:max(60px,calc(var(--vertical-title-size,46px)*1.05))}
+:is(.archives-home,.archive-detail-page) .archive-header{display:flex;justify-content:flex-end}
+:is(.archives-home,.archive-detail-page) .archive-title-rail{position:fixed;z-index:1000;left:var(--title-left);top:0;height:100dvh;width:var(--title-rail-width);display:flex;align-items:center;justify-content:center;pointer-events:none}
+:is(.archives-home,.archive-detail-page) .archive-title-rail .archive-home-title{position:static;inset:auto;display:inline-block;font-family:var(--archive-font);font-weight:700;font-size:var(--vertical-title-size,clamp(18px,4.8dvh,46px));font-style:normal;line-height:1.05;letter-spacing:-.02em;word-spacing:0;min-height:0;margin:0;padding:0;white-space:nowrap;flex:0 0 auto;transform:rotate(-90deg);transform-origin:center center;writing-mode:horizontal-tb;pointer-events:auto;color:transparent;-webkit-text-fill-color:currentColor;-webkit-text-stroke:1.2px #fff;background:none;text-shadow:none;text-decoration:none;transition:color .25s ease,text-shadow .25s ease}
+
+:is(.archives-home,.archive-detail-page) .archive-collection{padding-left:max(6vw,calc(var(--title-left) + var(--title-rail-width) + 40px))}
+/* Preserve desktop item widths when reserving the rail; use the existing gaps. */
+@media(min-width:1051px){:is(.archives-home,.archive-detail-page) .archive-collection{column-gap:calc(7vw - (max(6vw,calc(var(--title-left) + var(--title-rail-width) + 40px)) - 6vw) / 2)}}
+@media(max-width:700px){:is(.archives-home,.archive-detail-page) .archive-collection{padding-left:calc(var(--title-left) + var(--title-rail-width) + 24px)}}
+@media(prefers-reduced-motion:reduce){:is(.archives-home,.archive-detail-page) .archive-title-rail .archive-home-title{transition:none}:is(.archives-home,.archive-detail-page) .archive-work-overlay{transition:none}}
+/* Shared navigation rails for every ARCHIVES page. */
+:is(.archives-home,.archive-detail-page) .archive-header{min-height:138px;background:transparent;position:static}
+:is(.archives-home,.archive-detail-page) .archive-building-logo{position:fixed;right:4vw;top:38px;z-index:1001}
+:is(.archives-home,.archive-detail-page) .archive-title-rail .archive-home-title:hover{animation:archive-title-flash .7s ease-out 1}
+:is(.archives-home,.archive-detail-page) .archive-title-rail .archive-home-title:focus-visible{outline:1px solid white;outline-offset:8px}
+@keyframes archive-title-flash{0%{color:transparent;text-shadow:none}10%,24%{color:#fff;text-shadow:0 0 10px #ffffff60}100%{color:transparent;text-shadow:none}}
+.archive-category-nav{position:fixed;z-index:1000;right:4vw;top:var(--nav-top,143px);width:70px;display:flex;flex-direction:column;align-items:center;gap:var(--category-gap,22px)}
+.archive-category-nav a{display:block;flex:none;white-space:nowrap;transform:rotate(90deg);font:700 15px/1.2 var(--archive-font);text-decoration:none;color:rgba(255,255,255,.8);transition:color .2s}
+.archive-category-nav a:hover,.archive-category-nav a[aria-current]{color:#fff}
+:is(.archives-home,.archive-detail-page) .archive-collection{padding-right:calc(4vw + 105px)}
+.archives-home .archive-collection.is-filtered{display:flex;flex-direction:column;gap:100px;align-items:center}
+.archives-home .is-filtered .archive-item{padding-top:0;width:100%;max-width:650px}
+.archives-home .is-filtered .archive-work{width:min(100%,calc(var(--media-width,35vw)*1.5))}
+.archives-home .archive-item[hidden]{display:none}
+.archive-detail-page .archive-detail{max-width:none;margin:65px 0 130px;padding:0 calc(4vw + 105px) 0 calc(var(--title-left) + var(--title-rail-width) + 40px);display:grid;grid-template-columns:minmax(0,23fr) minmax(0,77fr);gap:4vw;align-items:start}
+.archive-detail-page .archive-work-info{font:700 14px/1.5 var(--archive-font);overflow-wrap:anywhere}
+.archive-detail-page .archive-work-info h1{font:700 15px/1.5 var(--archive-font);letter-spacing:0;margin:0 0 28px}
+.archive-work-info dl{margin:0 0 32px}.archive-work-info dt{font-size:10px;color:#999;margin-top:15px}.archive-work-info dd{margin:2px 0 0}
+.archive-related{display:flex;flex-direction:column;gap:10px;margin:35px 0}.archive-related a{text-decoration:none;color:#aaa}.archive-related a:hover,.archive-related a[aria-current]{color:#fff}.archive-related a[aria-current]{text-decoration:underline;text-underline-offset:4px}
+.archive-work-images img{display:block;width:100%;height:auto;margin:0 0 70px;border:0;box-shadow:none}
+.archive-detail-page .archive-footer{display:none}
+@media(max-width:700px){
+ :is(.archives-home,.archive-detail-page) .archive-header{min-height:104px}
+ :is(.archives-home,.archive-detail-page) .archive-building-logo{right:5vw;top:25px}
+ .archive-category-nav{right:5vw;width:44px}
+ .archive-category-nav a{font-size:13px}
+ :is(.archives-home,.archive-detail-page) .archive-collection{padding-right:calc(5vw + 60px)}
+ .archive-detail-page .archive-detail{margin-top:50px;padding-left:calc(var(--title-left) + var(--title-rail-width) + 24px);padding-right:calc(5vw + 60px);grid-template-columns:minmax(0,1fr);gap:40px}
+ .archive-detail-page .archive-work-info{font-size:14px}
+ .archives-home .is-filtered .archive-work{width:100%}
+}
+@media(max-height:500px){.archive-category-nav{--category-gap:6px}.archive-category-nav a{font-size:11px}}
+@media(prefers-reduced-motion:reduce){:is(.archives-home,.archive-detail-page) .archive-title-rail .archive-home-title:hover{animation:none}.archive-category-nav a{transition:none}}
+
+.archive-category-line{width:1px;height:var(--category-line-length,200px);background:rgba(255,255,255,.8);flex:none;margin-bottom:0}
+.archive-category-slot{display:flex;align-items:center;justify-content:center;width:100%;height:var(--category-length,90px);flex:none}
+.archive-category-slot a{width:max-content;flex:none}
+
+.archive-work-info .archive-description{font-family:var(--archive-font);font-weight:700;font-size:14px;line-height:1.6;color:rgba(255,255,255,.88);text-align:left;max-width:100%;margin:24px 0 0;white-space:pre-line;overflow-wrap:anywhere}

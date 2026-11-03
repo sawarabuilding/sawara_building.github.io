@@ -1,0 +1,61 @@
+{
+  "status": "AWAITING_SECTION_CONFIRMATION",
+  "reference_image_available": false,
+  "source_plane": {
+    "layer": "断面",
+    "object_id": "6fdf479a-b0c9-4779-b756-48fa6f4b1be2",
+    "axis": "X",
+    "original_mm": 20430.14863893253,
+    "centered_m": 0.6577101127789646
+  },
+  "candidates": {
+    "A": {
+      "axis": "X",
+      "position_m": 0.6577101127789646,
+      "basis": "existing source section surface",
+      "screen_line": [
+        [
+          840.4745101928711,
+          1376.9230756908655
+        ],
+        [
+          840.4745101928711,
+          23.076963424682617
+        ]
+      ]
+    },
+    "B": {
+      "axis": "Y",
+      "position_m": -0.12166643142700195,
+      "basis": "alternative symmetry-axis candidate; not an existing source section plane",
+      "screen_line": [
+        [
+          184.61538553237915,
+          707.487154006958
+        ],
+        [
+          1415.384578704834,
+          707.487154006958
+        ]
+      ]
+    }
+  },
+  "old_web_section": {
+    "original_x_mm": 18972.438526153564,
+    "centered_x_m": -0.8,
+    "offset_to_A_m": 1.4577101127789647
+  },
+  "plan_slice_z_m": 7.6,
+  "axes": "Blender Z-up; +X right, +Y up",
+  "source_model_sha256": "30434d883e34d27e101da17a70ed538e80961535bc3ec74fb720499d2feb4970",
+  "center_projection": [
+    840.4745101928711,
+    707.487154006958
+  ],
+  "views": {
+    "A1": "view from -X towards +X",
+    "A2": "view from +X towards -X",
+    "B1": "view from -Y towards +Y",
+    "B2": "view from +Y towards -Y"
+  }
+}

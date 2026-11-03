@@ -1,0 +1,9 @@
+.archives-home .archive-work{display:block;position:relative;isolation:isolate;width:var(--media-width,18vw);max-width:100%;text-decoration:none}
+.archives-home .archive-work-media img{display:block;width:100%;height:auto;margin:0;border:0;box-shadow:none}
+.archives-home .no-image .archive-work-media{aspect-ratio:3/2;min-height:140px}
+.archives-home .archive-work-overlay{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;padding:16px;background:rgba(0,0,0,.75);opacity:0;pointer-events:none;transition:opacity .3s ease}
+.archives-home .archive-hover-title{font:700 clamp(12px,1.2vw,20.8px)/1.4 var(--archive-font);color:#fff;text-align:center;overflow-wrap:anywhere}
+@media(hover:hover){.archives-home .archive-work:hover .archive-work-overlay{opacity:1}}
+.archives-home .archive-work:focus-visible .archive-work-overlay,.archives-home .archive-work.is-revealed .archive-work-overlay{opacity:1}
+@media(max-width:700px){.archives-home .archive-work{width:100%}.archives-home .archive-work.has-image{width:min(68vw,320px)}}
+

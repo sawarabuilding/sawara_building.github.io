@@ -1,0 +1,132 @@
+[
+  {
+    "file": "assets/archives/sawaraban-01/front.webp",
+    "source": "sawaraban-01-source.pdf",
+    "width": 1283,
+    "height": 1800,
+    "bytes": 230808,
+    "sourceSha256": "505f69424f160a4645eb79111435d8ab09510ffcfcf19480989c562fc91914f7",
+    "pdfPage": 1,
+    "pdfPageCount": 6,
+    "side": "front"
+  },
+  {
+    "file": "assets/archives/sawaraban-01/back.webp",
+    "source": "sawaraban-01-source.pdf",
+    "width": 1283,
+    "height": 1800,
+    "bytes": 368152,
+    "sourceSha256": "505f69424f160a4645eb79111435d8ab09510ffcfcf19480989c562fc91914f7",
+    "pdfPage": 2,
+    "pdfPageCount": 6,
+    "side": "back"
+  },
+  {
+    "file": "assets/archives/sawaraban-02/front.webp",
+    "source": "sawaraban-02.pdf",
+    "width": 1273,
+    "height": 1800,
+    "bytes": 177704,
+    "sourceSha256": "ee12261b5d9a80db0d40eabc3ee708c159b4a34daea749e56faee948aee396c3",
+    "pdfPage": 2,
+    "pdfPageCount": 2,
+    "side": "front"
+  },
+  {
+    "file": "assets/archives/sawaraban-02/back.webp",
+    "source": "sawaraban-02.pdf",
+    "width": 1273,
+    "height": 1800,
+    "bytes": 381372,
+    "sourceSha256": "ee12261b5d9a80db0d40eabc3ee708c159b4a34daea749e56faee948aee396c3",
+    "pdfPage": 1,
+    "pdfPageCount": 2,
+    "side": "back"
+  },
+  {
+    "file": "assets/archives/zine-nagata-2026/01.webp",
+    "source": "DSC_0929.jpg",
+    "width": 1542,
+    "height": 1800,
+    "bytes": 525128,
+    "sourceSha256": "f3e9cadef2ec47edd24bc179530b29b6ef175cadc32dd6cead77a093212ec10c"
+  },
+  {
+    "file": "assets/archives/zine-nagata-2026/02.webp",
+    "source": "DSC_0898.jpg",
+    "width": 1800,
+    "height": 1201,
+    "bytes": 117544,
+    "sourceSha256": "38e3c0d740c9c27a408ccda6fe9f1651e59aebed781462e9aec6768ddcca795b"
+  },
+  {
+    "file": "assets/archives/zine-nagata-2026/03.webp",
+    "source": "DSC_0900.jpg",
+    "width": 1800,
+    "height": 1542,
+    "bytes": 129448,
+    "sourceSha256": "ef78d3d724eb1ecc7cadef061d07e2ba50413ec366ef9fd7577e0443a13a4ed4"
+  },
+  {
+    "file": "assets/archives/zine-nagata-2026/04.webp",
+    "source": "DSC_0895.jpg",
+    "width": 1201,
+    "height": 1800,
+    "bytes": 213902,
+    "sourceSha256": "e4a2b6ab5e74e808546ae30dffd81611233edbeeb3c5fc84e7aa9522d736a3f1"
+  },
+  {
+    "file": "assets/archives/zine-nagata-2026/05.webp",
+    "source": "DSC_0919.jpg",
+    "width": 1800,
+    "height": 1542,
+    "bytes": 340726,
+    "sourceSha256": "1fc7b67abbbd5d699ab7f93ee364d2e51234c9deb1166c1a65be66ba5a668574"
+  },
+  {
+    "file": "assets/archives/zine-seishin-2026/01.webp",
+    "source": "DSC_1763.jpg",
+    "width": 1800,
+    "height": 1542,
+    "bytes": 242080,
+    "sourceSha256": "a9c2179872c7c053798363e93c0378ff451951d1061bd580f5036b1dc386eef6"
+  },
+  {
+    "file": "assets/archives/zine-seishin-2026/02.webp",
+    "source": "DSC_1747.jpg",
+    "width": 1800,
+    "height": 1542,
+    "bytes": 241660,
+    "sourceSha256": "0308cbf9ec61306ccd1e87a232cf36c453ea55a4935bfc6a8ccf5dc5b7370a56"
+  },
+  {
+    "file": "assets/archives/zine-seishin-2026/03.webp",
+    "source": "DSC_1750.jpg",
+    "width": 1800,
+    "height": 1542,
+    "bytes": 89592,
+    "sourceSha256": "83d526582c49519226799b38398d320618bf101bff1870f794db379fac4ab93f"
+  },
+  {
+    "file": "assets/archives/zine-seishin-2026/04.webp",
+    "source": "DSC_1751.jpg",
+    "width": 1542,
+    "height": 1800,
+    "bytes": 171666,
+    "sourceSha256": "a77b50a03f88dfa600095f037f141f0e3b45dce76e3d94543d9e4832cd318b3f"
+  },
+  {
+    "file": "assets/archives/zine-seishin-2026/05.webp",
+    "source": "DSC_1759.jpg",
+    "width": 1800,
+    "height": 1201,
+    "bytes": 136034,
+    "sourceSha256": "72e061786fda677fbae034d0071b781bbecb3f358eab4accd42bda932ee9cc55"
+  },
+  {
+    "file": "assets/archives/sawara-building-logo.webp",
+    "source": "sawara-building-logo.png",
+    "bytes": 84832,
+    "lossless": true
+  }
+]
