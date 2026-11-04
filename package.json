@@ -3,10 +3,11 @@
   "private": true,
   "version": "0.1.0",
   "scripts": {
-    "dev": "node scripts/serve.cjs",
-    "vendor": "node scripts/vendor.cjs",
-    "check:browser": "node scripts/check-final-v1.cjs",
-    "check:touch": "node scripts/check-final-touch.cjs"
+    "dev": "node 99_development/tools/serve.cjs",
+    "vendor": "node 99_development/tools/vendor.cjs",
+    "check:browser": "node 99_development/tools/check-structure.cjs",
+    "check:touch": "node 99_development/tools/check-structure.cjs",
+    "check:structure": "node 99_development/tools/check-structure.cjs"
   },
   "dependencies": {
     "three": "0.187.0"
