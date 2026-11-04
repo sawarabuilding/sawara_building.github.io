@@ -153,7 +153,7 @@ try{
   renderer.localClippingEnabled=true;renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=1.2;
   const canvas=renderer.domElement;canvas.setAttribute('role','img');canvas.setAttribute('aria-label','鰆ビルヂングの操作できる建築模型');stage.append(canvas);
   controls=new OrbitControls(camera,canvas);controls.enablePan=false;controls.enableDamping=true;
-  controls.mouseButtons={LEFT:null,MIDDLE:THREE.MOUSE.DOLLY,RIGHT:THREE.MOUSE.ROTATE};
+  controls.mouseButtons={LEFT:THREE.MOUSE.ROTATE,MIDDLE:THREE.MOUSE.DOLLY,RIGHT:THREE.MOUSE.ROTATE};
   controls.touches={ONE:THREE.TOUCH.ROTATE,TWO:THREE.TOUCH.DOLLY_ROTATE};
   controls.target.copy(target);controls.addEventListener('start',()=>{interacting=true;});controls.addEventListener('end',()=>{interacting=false;});
   scene.add(new THREE.HemisphereLight(0xf2f1ed,0x596475,2));
@@ -163,11 +163,14 @@ try{
   let down;const pointers=new Set();
   canvas.addEventListener('pointerdown',event=>{
     pointers.add(event.pointerId);if(pointers.size>1){down=null;return;}
-    down={x:event.clientX,y:event.clientY,button:event.button,moved:false,touch:event.pointerType==='touch'};
+    down={x:event.clientX,y:event.clientY,pointerId:event.pointerId,button:event.button,moved:false,touch:event.pointerType==='touch'};
   });
-  canvas.addEventListener('pointermove',event=>{if(down&&Math.hypot(event.clientX-down.x,event.clientY-down.y)>7)down.moved=true;});
+  // Keep a drag classified as a drag even if it returns to its starting point.
+  const trackDrag=event=>{if(down&&event.pointerId===down.pointerId&&Math.hypot(event.clientX-down.x,event.clientY-down.y)>(down.touch?7:5))down.moved=true;};
+  canvas.addEventListener('pointermove',trackDrag);
   canvas.addEventListener('pointercancel',event=>{pointers.delete(event.pointerId);down=null;interacting=false;});
   canvas.addEventListener('pointerup',event=>{
+    trackDrag(event);
     pointers.delete(event.pointerId);const start=down;down=null;if(!start||tween)return;
 
     if(start.moved||start.button!==0)return;
