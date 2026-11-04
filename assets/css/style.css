@@ -112,3 +112,5 @@ body.home[data-mode=guide] .floor-name{font-family:"Yu Gothic","游ゴシック"
 .tenant-link:hover,.tenant-link:focus-visible{text-decoration:underline;text-underline-offset:4px}
 .tenant-link[aria-disabled=true]{cursor:default}
 @media(max-width:700px){body.home[data-mode=guide] .tenant-row{left:min(var(--floor-x,70%),calc(100vw - 126px));width:120px}body.home[data-mode=guide] .floor-name{font-size:10px;letter-spacing:0}body.home[data-mode=guide] [data-floor-row="3f"] .floor-name{letter-spacing:-.14em;word-spacing:.2em}}
+
+.site-header .about-link{display:block;pointer-events:auto;text-decoration:none;color:inherit;touch-action:manipulation}
