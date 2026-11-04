@@ -1,0 +1,233 @@
+[
+  {
+    "source": "main.jpg",
+    "file": "magazine-1-cover.webp",
+    "width": 1558,
+    "height": 2200,
+    "original": [
+      2150,
+      3035
+    ],
+    "sourceSha256": "b77928e8357a6fe10b8133dc869bda71762de0d1321cec3ee3c5e7c3af0c1ef0"
+  },
+  {
+    "source": "1.png",
+    "file": "magazine-1-01.webp",
+    "width": 2200,
+    "height": 2200,
+    "original": [
+      3000,
+      3000
+    ],
+    "sourceSha256": "4a9299f010d1a4d56846216e8fde0decbbe0a2c0047a18f41336a20bfd5101b5"
+  },
+  {
+    "source": "2.png",
+    "file": "magazine-1-02.webp",
+    "width": 2200,
+    "height": 2200,
+    "original": [
+      3000,
+      3000
+    ],
+    "sourceSha256": "7fbbb8009582d0d7b1dd991a2d45788f958571e98271756ee3538b7cba3d1ab9"
+  },
+  {
+    "source": "2png.png",
+    "file": "magazine-1-03.webp",
+    "width": 2200,
+    "height": 2200,
+    "original": [
+      3000,
+      3000
+    ],
+    "sourceSha256": "3a84c6af7c85fd2200626423073881ec664ae64c07d01a6edcc656557f5e8106"
+  },
+  {
+    "source": "3.png",
+    "file": "magazine-1-04.webp",
+    "width": 2200,
+    "height": 2200,
+    "original": [
+      3000,
+      3000
+    ],
+    "sourceSha256": "236584d7e08dcb516c0a5edd9f3123762f8762e36d425dc9e833142d5345ac3c"
+  },
+  {
+    "source": "4.png",
+    "file": "magazine-1-05.webp",
+    "width": 2200,
+    "height": 2200,
+    "original": [
+      3000,
+      3000
+    ],
+    "sourceSha256": "ce1f8782a1d9c6e76ce85170e57a64e29f309aca3698e31496f6b66169c32991"
+  },
+  {
+    "source": "4F_nishiura-01.jpg",
+    "file": "magazine-1-06.webp",
+    "width": 1558,
+    "height": 2200,
+    "original": [
+      2150,
+      3036
+    ],
+    "sourceSha256": "819bc7d637f4965a3b3f075a8af28eae827ee8d0bb36269da0b652a6cc65ed5c"
+  },
+  {
+    "source": "4F_nishiura-02.jpg",
+    "file": "magazine-1-07.webp",
+    "width": 1559,
+    "height": 2200,
+    "original": [
+      2151,
+      3036
+    ],
+    "sourceSha256": "8bfeefef4fccade2157e5c6d9fe6a6d7d2765ec2b71a81f7e6599a191f463318"
+  },
+  {
+    "source": "5.png",
+    "file": "magazine-1-08.webp",
+    "width": 2200,
+    "height": 2200,
+    "original": [
+      3000,
+      3000
+    ],
+    "sourceSha256": "ae421f966b6277c56dcb22414b4ed762d4ac0528f0fcb9ca43d62e020aac038d"
+  },
+  {
+    "source": "5F_nishiura最終.jpg",
+    "file": "magazine-1-09.webp",
+    "width": 1558,
+    "height": 2200,
+    "original": [
+      2150,
+      3035
+    ],
+    "sourceSha256": "f11125291900351114d0e19a6fca11cf7eed9a03bfec21c3a5be81452aff3dac"
+  },
+  {
+    "source": "5F_nishiura最終2.jpg",
+    "file": "magazine-1-10.webp",
+    "width": 1558,
+    "height": 2200,
+    "original": [
+      2150,
+      3035
+    ],
+    "sourceSha256": "fad2c79f6274fd92869cfdb3c8fddb1ea2144fffb797760bdaac52cbfeb88b6c"
+  },
+  {
+    "source": "アートボード 1.png",
+    "file": "magazine-1-11.webp",
+    "width": 2200,
+    "height": 2200,
+    "original": [
+      3000,
+      3000
+    ],
+    "sourceSha256": "f5aa9f8d2f87cef992219c05b02bc05d29338c534e74e052dc757304ef27742a"
+  },
+  {
+    "source": "ローリング.jpg",
+    "file": "magazine-1-12.webp",
+    "width": 1558,
+    "height": 2200,
+    "original": [
+      2150,
+      3035
+    ],
+    "sourceSha256": "035c2738cc450ce703c43233f9277e896d87f9fc4424a58f4027de8b95a42d6f"
+  },
+  {
+    "source": "ローリング2.jpg",
+    "file": "magazine-1-13.webp",
+    "width": 1558,
+    "height": 2200,
+    "original": [
+      2150,
+      3035
+    ],
+    "sourceSha256": "7c437464ce82262fe5b70df771e10f6c03ca1b20b9855452f121a0d088da4174"
+  },
+  {
+    "source": "山本.jpg",
+    "file": "magazine-1-14.webp",
+    "width": 1558,
+    "height": 2200,
+    "original": [
+      2150,
+      3035
+    ],
+    "sourceSha256": "08b9e221c7403aa17700790670edc363527272fa0d3472a3484020aae5f9eff6"
+  },
+  {
+    "source": "山本2.jpg",
+    "file": "magazine-1-15.webp",
+    "width": 1558,
+    "height": 2200,
+    "original": [
+      2150,
+      3035
+    ],
+    "sourceSha256": "1fbdb97864ce5841cb789bceec42a893506ee33d1bbac3f438f3d6572c264529"
+  },
+  {
+    "source": "表紙.png",
+    "file": "magazine-1-16.webp",
+    "width": 2200,
+    "height": 2200,
+    "original": [
+      3000,
+      3000
+    ],
+    "sourceSha256": "8bf11a4e0b854e696a7a4870862b915fabe745a61b7b1ae4b2b3514a90412a96"
+  },
+  {
+    "source": "試作２.jpg",
+    "file": "magazine-1-17.webp",
+    "width": 1558,
+    "height": 2200,
+    "original": [
+      2150,
+      3035
+    ],
+    "sourceSha256": "83e2c9aa1c0184c3c272bbc4d96dc367f412bfeb71025fd46365c76a94cd58e1"
+  },
+  {
+    "source": "試作２.png",
+    "file": "magazine-1-18.webp",
+    "width": 1558,
+    "height": 2200,
+    "original": [
+      2150,
+      3035
+    ],
+    "sourceSha256": "8fd56a20b87c308072649026195afdd37ac37b5f1badba1339dbda5046760c65"
+  },
+  {
+    "source": "試作２2.jpg",
+    "file": "magazine-1-19.webp",
+    "width": 1558,
+    "height": 2200,
+    "original": [
+      2150,
+      3035
+    ],
+    "sourceSha256": "4d2f0628e8a193e1af7c6c6fdbc845776ba2a72ed69147f0c6af33bfc98f548a"
+  },
+  {
+    "source": "試作２2.png",
+    "file": "magazine-1-20.webp",
+    "width": 1558,
+    "height": 2200,
+    "original": [
+      2150,
+      3035
+    ],
+    "sourceSha256": "1401af0854d38ffd1c0137cf752be6712fc3ff0e561e7f85370bf7514d4d9070"
+  }
+]
