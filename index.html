@@ -10,13 +10,13 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="assets/css/building-logo.css">
-  <script defer src="assets/js/floors.js"></script>
-  <script defer src="assets/js/floor-navigation.js"></script>
-  <script type="importmap">{"imports":{"three":"./assets/vendor/three/build/three.module.js","three/addons/":"./assets/vendor/three/examples/jsm/"}}</script>
-  <script defer src="assets/js/directory.js"></script>
-  <script type="module" src="assets/js/building.js"></script>
+  <link rel="stylesheet" href="./90_shared/css/style.css">
+  <link rel="stylesheet" href="./90_shared/css/building-logo.css">
+  <script defer src="./90_shared/js/floors.js"></script>
+  <script defer src="./90_shared/js/floor-navigation.js"></script>
+  <script type="importmap">{"imports":{"three":"./90_shared/vendor/three/build/three.module.js","three/addons/":"./90_shared/vendor/three/examples/jsm/"}}</script>
+  <script defer src="./90_shared/js/directory.js"></script>
+  <script type="module" src="./90_shared/js/building.js"></script>
 </head>
 <body class="home">
   <a class="skip" href="#directory">フロア案内へ</a>
@@ -25,12 +25,12 @@
       <div id="sky" class="sky" role="button" tabindex="-1" aria-label="空。模型の外観に戻る"></div>
       <div id="ground" class="ground" aria-hidden="true"></div>
       <header class="site-header">
-        <h1 lang="en"><a class="about-link" data-about-link href="/about/">SAWARA<br>BUILDING<span lang="ja">鰆ビルヂング</span></a></h1>
+        <h1 lang="en"><a class="about-link" data-about-link href="./01_about/">SAWARA<br>BUILDING<span lang="ja">鰆ビルヂング</span></a></h1>
       </header>
-      <div class="exterior-logo"><img src="assets/images/sawara-building-logo.png" alt="SAWARA BUILDING" draggable="false"></div>
-      <a class="building-logo guide-logo" href="./index.html" aria-label="鰆ビルヂングの外観トップページへ戻る"><img src="assets/images/sawara-building-logo.png" alt="SAWARA BUILDING" width="70" height="70"></a>
+      <div class="exterior-logo"><img src="./90_shared/images/sawara-building-logo.png" alt="SAWARA BUILDING" draggable="false"></div>
+      <a class="building-logo guide-logo" href="./index.html" aria-label="鰆ビルヂングの外観トップページへ戻る"><img src="./90_shared/images/sawara-building-logo.png" alt="SAWARA BUILDING" width="70" height="70"></a>
       <div id="stage" class="stage" aria-label="3D模型。ホイールで拡大縮小、右ドラッグまたはタッチで回転。クリックで案内モード。">
-        <img id="fallback" class="fallback" src="diagnostics/section-review/B1-candidate.png" alt="鰆ビルヂング、B1方向から見た中央吹抜の断面。">
+        <img id="fallback" class="fallback" src="./90_shared/images/building-fallback.png" alt="鰆ビルヂング、B1方向から見た中央吹抜の断面。">
       </div>
       <p id="load-status" class="load-status" role="status">模型を読み込んでいます…</p>
       <div class="view-controls">
@@ -43,10 +43,10 @@
       <p id="selected-floor" class="selected-floor" role="status">1F カフェ</p>
     </section>
     <section id="archives" class="archives" aria-labelledby="archive-heading">
-      <div class="archive-heading"><h2 id="archive-heading"><a href="./archives/index.html">ARCHIVES</a></h2></div>
+      <div class="archive-heading"><h2 id="archive-heading"><a href="./03_archives/index.html">ARCHIVES</a></h2></div>
     </section>
   </main>
-  <script type="module">import {enableTapNavigation} from './assets/js/tap-link.js';enableTapNavigation(document.querySelector('.guide-logo'));document.querySelectorAll('[data-about-link]').forEach(enableTapNavigation);</script>
-  <noscript><nav class="no-script-navigation" aria-label="フロア案内"><a href="./archives/index.html">ARCHIVES</a></nav></noscript>
+  <script type="module">import {enableTapNavigation} from './90_shared/js/tap-link.js';enableTapNavigation(document.querySelector('.guide-logo'));document.querySelectorAll('[data-about-link]').forEach(enableTapNavigation);</script>
+  <noscript><nav class="no-script-navigation" aria-label="フロア案内"><a href="./03_archives/index.html">ARCHIVES</a></nav></noscript>
 </body>
 </html>

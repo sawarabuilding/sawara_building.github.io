@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "check": "static HTML references",
+      "count": 139
+    },
+    {
+      "check": "archive entries and all image/PDF references",
+      "count": 10
+    },
+    {
+      "check": "five category pages and navigation",
+      "count": 5
+    },
+    {
+      "check": "all detail pages and loaded images",
+      "count": 10
+    },
+    {
+      "check": "PDF download and existing once-only behavior"
+    },
+    {
+      "check": "ABOUT images and cafe menu"
+    },
+    {
+      "check": "legacy redirects, query and hash",
+      "count": 16
+    },
+    {
+      "check": "3D exterior, contents and cafe destination"
+    },
+    {
+      "check": "mobile layout and subdirectory hosting"
+    },
+    {
+      "check": "touch preview and second-tap navigation"
+    }
+  ],
+  "errors": []
+}
