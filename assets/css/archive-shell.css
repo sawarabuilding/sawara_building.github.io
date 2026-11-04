@@ -55,3 +55,8 @@
 .freepaper-download-button:disabled{color:#999;-webkit-text-fill-color:#999;-webkit-text-stroke:0;cursor:default}
 .freepaper-download-button:focus-visible{outline:1px solid #fff;outline-offset:4px}
 .freepaper-download-note{margin:0;color:#999;font:400 10px/1.5 var(--archive-font);overflow-wrap:anywhere}
+/* Keep every category reachable on short landscape screens. */
+@media(max-height:500px){.archive-category-nav{max-height:calc(100dvh - var(--nav-top,143px) - 12px);overflow-y:auto;overflow-x:hidden;scrollbar-width:none}}
+.archive-work-info dd.archive-memo{font:400 14px/1.7 var(--archive-font);color:#fff;text-align:left;white-space:pre-line;overflow-wrap:anywhere}
+.archive-work-info dd.archive-production-credit{font:400 14px/1.7 var(--archive-font);color:#fff;text-align:left;white-space:pre-line;overflow-wrap:anywhere}
+.archive-production-credit p{margin:1em 0 0}

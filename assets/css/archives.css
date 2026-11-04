@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Noto+Sans+JP:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=Noto+Sans+JP:wght@400;700&display=swap');
 :root{--archive-font:"Arimo","Noto Sans JP",sans-serif;font-family:var(--archive-font);color:#fff;background:#000;color-scheme:dark;font-synthesis:none;scroll-behavior:smooth}
 *{box-sizing:border-box}body{margin:0}a{color:inherit;text-underline-offset:6px;touch-action:manipulation}a:focus-visible{outline:1px solid #fff;outline-offset:7px}button,a{-webkit-tap-highlight-color:transparent}
 .archive-header{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:start;gap:4vw;padding:38px 4vw 20px}
