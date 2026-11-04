@@ -48,3 +48,10 @@
 .archive-category-slot a{width:max-content;flex:none}
 
 .archive-work-info .archive-description{font-family:var(--archive-font);font-weight:700;font-size:14px;line-height:1.6;color:rgba(255,255,255,.88);text-align:left;max-width:100%;margin:24px 0 0;white-space:pre-line;overflow-wrap:anywhere}
+/* Free-paper controls in the existing information column. */
+.freepaper-download{font-family:var(--archive-font);margin-top:0}
+.freepaper-download-button{display:block;min-height:44px;max-width:100%;padding:0;border:0;background:none;color:#fff;-webkit-text-fill-color:currentColor;-webkit-text-stroke:0;font:700 20px/1.5 var(--archive-font);text-decoration:none;cursor:pointer}
+.freepaper-download-button:not(:disabled):hover{color:#aaa}
+.freepaper-download-button:disabled{color:#999;-webkit-text-fill-color:#999;-webkit-text-stroke:0;cursor:default}
+.freepaper-download-button:focus-visible{outline:1px solid #fff;outline-offset:4px}
+.freepaper-download-note{margin:0;color:#999;font:400 10px/1.5 var(--archive-font);overflow-wrap:anywhere}

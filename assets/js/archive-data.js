@@ -1,4 +1,4 @@
-// User-supplied titles only. Images, description and PDF remain unregistered.
+// Archive entries and detail media. Free-paper download settings are below.
 // Entries keep their reading order; layout changes scale and spacing, not categories.
 export const ARCHIVE_BRAND={logoUrl:new URL('../archives/sawara-building-logo.webp',import.meta.url).href};
 export const ARCHIVE_CATEGORIES={paper:'FREE PAPER',event:'EVENT',architecture:'ARCHITECTURE',money:'MONEY'};
@@ -45,3 +45,14 @@ const detailImages={
   {url:'../assets/archives/zine-seishin-2026/05.webp',alt:'西神中央の販売テーブルと接客の手元'}]
 };
 for(const item of ARCHIVE_ITEMS)if(detailImages[item.id])item.images=detailImages[item.id];
+
+// PDF paths are relative to this module, including on subdirectory hosting.
+export const FREE_PAPERS={
+ 'sawaraban-1':{number:1,pdfs:['../freepaper/no01/color01.pdf','../freepaper/no01/color02.pdf','../freepaper/no01/color03.pdf'],downloadName:'SAWARABAN_no01.pdf'},
+ 'sawaraban-2':{number:2,pdfs:[],downloadName:'SAWARABAN_no02.pdf'},
+ 'sawaraban-3':{number:3,pdfs:[],downloadName:'SAWARABAN_no03.pdf'}
+};
+for(const item of ARCHIVE_ITEMS){
+ const paper=FREE_PAPERS[item.id];
+ if(paper)item.freePaper={...paper,pdfs:paper.pdfs.map(path=>new URL(path,import.meta.url).href)};
+}

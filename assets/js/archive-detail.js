@@ -1,4 +1,5 @@
 import {ARCHIVE_ITEMS,ARCHIVE_BRAND,ARCHIVE_NAV,ARCHIVE_FACTS} from './archive-data.js';
+import {createPaperDownload} from './freepaper-download.js';
 import {mountArchiveHeader} from './archive-header.js';
 const main=document.querySelector('[data-archive-detail]');
 const item=ARCHIVE_ITEMS.find(item=>item.id===main.dataset.archiveDetail);
@@ -23,6 +24,8 @@ if(item){
  const images=item.images||(item.cover?[item.cover]:item.image?[{url:item.image,alt:item.title}]:[]);
  for(const image of images){const img=document.createElement('img');img.src=image.url;img.alt=image.alt||item.title;if(image.width){img.width=image.width;img.height=image.height;}img.loading='lazy';img.decoding='async';media.append(img);}
  if(!images.length){const p=document.createElement('p');p.className='detail-empty';p.textContent='画像・資料は準備中です。';media.append(p);}
+ const download=item.category==='paper'&&createPaperDownload(item.freePaper);
+ if(download)info.append(download);
  main.append(info,media);
 }
 mountArchiveHeader({container:document.getElementById('archive-header'),logoUrl:ARCHIVE_BRAND.logoUrl});
